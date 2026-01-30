@@ -211,13 +211,11 @@ text_ = text.lower()
 # remove numbers
 text_ = re.sub(r"\d+", " ", text_)
 
-
 # keep hyphens to avoid splitting scientific terms
 text_ = re.sub(r"[^\w\s-]", " ", text_)
 
 # normalize hyphens
 text_ = re.sub(r"-+", " ", text_)
-
 
 text_ = re.sub(r"\b(\w+)\s+\1\b", r"\1", text_)
 
