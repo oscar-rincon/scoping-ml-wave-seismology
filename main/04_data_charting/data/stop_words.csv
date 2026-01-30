@@ -36,12 +36,13 @@ page
 academic
 oup
 article
-simulation wavenet
+simulation
 left
 reconstructed
 max
-page encoder
-remote sen
+page
+remote
+sen
 respective
 attention
 precision
@@ -52,8 +53,9 @@ middle
 appl
 sci
 output
-function
-inversion
+mini
+relevant
+fitting
 algorithm
 dataset
 example
@@ -70,17 +72,16 @@ number
 source
 application
 structure
-loss function
 gradient
 process
 doi org
 architecture
 performance
 size
-geophysics
 domain
 initial
 table
+migration
 field
 due
 analysis
@@ -123,11 +124,9 @@ dimension
 range
 single
 effect
-time
 simulation
 pdf
 fewer
-time step
 spatial
 component
 loss
@@ -157,6 +156,16 @@ matrix
 high
 higher
 seismic waveform
+mini
+multicomponent
+adjustment
+applicability
+propagator
+observables
+phenomenon
+color
+aforementioned
+tuning
 possible
 noise
 event location
@@ -184,8 +193,18 @@ theory
 training dataset
 uncertainty
 implementation
+karniadakis
 computation
 simple
+complicated
+statistic
+extraction
+minimal
+derivation
+anomaly
+visualization
+mech
+explosive
 representation
 liu
 earthquake
@@ -216,7 +235,6 @@ study
 computational
 trace
 modeling
-waveform
 rock
 property
 boundary
@@ -270,9 +288,10 @@ direct
 line
 important
 channel
+dense
+eng
 author
 respect
-learning
 issue
 convergence
 computational cost
@@ -457,6 +476,7 @@ horizontal
 smaller
 global
 neuron
+geodude
 pocket
 characterization
 amount
@@ -541,10 +561,7 @@ slope
 generalization
 cnn efwi
 #----------------------------
-deep
 frequency
-accuracy
-operator
 adjoint
 state
 microseismic
@@ -595,7 +612,6 @@ synthetic
 science
 transform
 force
-fourier
 efwi
 informed
 ssim
@@ -807,7 +823,6 @@ oil
 fine
 fidelity
 literature
-element
 differentiation
 gji
 remote sen
@@ -905,8 +920,8 @@ pad
 whereas
 clear
 tree
-chain rule
-hemews database
+hemews 
+database
 normalized
 access
 yield
@@ -924,8 +939,10 @@ specified
 born
 uhs
 seismosoc
-institute technology
-trans remote
+institute 
+technology
+trans 
+remote
 annual meeting
 pub ssa
 ssa tsr
@@ -1193,3 +1210,15 @@ fischer
 spike
 spiky
 tab
+technical
+mechanic
+trainable
+star
+refer
+substructure
+variety
+percentile
+reﬂections
+trainable
+technical
+mechanic
