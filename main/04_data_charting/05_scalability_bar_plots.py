@@ -18,7 +18,7 @@ data_labels = ["Synthetic", "Experimental"]
 data_counts = [36, 8]
 
 #  Figure
-fig = plt.figure(figsize=(6.8, 1.6))
+fig = plt.figure(figsize=(6.5, 1.6))
 gs = GridSpec(1, 3, width_ratios=[1, 1, 1], figure=fig)
 
 fig.subplots_adjust(

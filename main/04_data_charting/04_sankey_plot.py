@@ -89,7 +89,7 @@ fig = go.Figure(go.Sankey(
  
 # Layout 
 fig.update_layout(
-    width=665,
+    width=640,
     height=200,
     font=dict(size=11, color="black"),
 
