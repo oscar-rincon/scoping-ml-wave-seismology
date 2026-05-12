@@ -23,12 +23,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.0881594"
-     inkscape:cx="250.9387"
-     inkscape:cy="92.66534"
-     inkscape:window-width="2400"
-     inkscape:window-height="1261"
-     inkscape:window-x="-9"
+     inkscape:zoom="1.4765517"
+     inkscape:cx="211.30314"
+     inkscape:cy="105.9902"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="2391"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="g1" />
@@ -391,24 +391,24 @@
          y="91.440063" />
       <text
          xml:space="preserve"
-         style="font-size:2.46944px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="177.60744"
-         y="95.062004"
+         style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="177.60046"
+         y="95.298676"
          id="text1-8-1-7-7"><tspan
            sodipodi:role="line"
-           style="font-size:2.46944px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="177.60744"
-           y="95.062004"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="177.60046"
+           y="95.298676"
            id="tspan2-1-1-2">Synthetic</tspan><tspan
            sodipodi:role="line"
-           style="font-size:2.46944px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="177.60744"
-           y="98.148804"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="177.60046"
+           y="97.944511"
            id="tspan3-2">or</tspan><tspan
            sodipodi:role="line"
-           style="font-size:2.46944px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="177.60744"
-           y="101.2356"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="177.60046"
+           y="100.59035"
            id="tspan4-8">experimental</tspan></text>
       <rect
          style="fill:#f2f2f2;fill-opacity:1;stroke-width:1.1"
@@ -419,19 +419,19 @@
          y="111.12504" />
       <text
          xml:space="preserve"
-         style="font-size:2.46944px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="177.54956"
-         y="116.41431"
+         style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="177.55086"
+         y="116.50346"
          id="text1-8-1-7-6-7"><tspan
            sodipodi:role="line"
-           style="font-size:2.46944px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="177.54956"
-           y="116.41431"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="177.55086"
+           y="116.50346"
            id="tspan4-9-8">Labelled</tspan><tspan
            sodipodi:role="line"
-           style="font-size:2.46944px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="177.54956"
-           y="119.50111"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="177.55086"
+           y="119.14929"
            id="tspan6-1">data</tspan></text>
       <rect
          style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.74162"
@@ -442,14 +442,14 @@
          y="135.46661" />
       <text
          xml:space="preserve"
-         style="font-size:2.46944px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="177.48445"
-         y="138.82246"
+         style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="177.49504"
+         y="138.72704"
          id="text1-8-1-7-6-5-2"><tspan
            sodipodi:role="line"
-           style="font-size:2.46944px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="177.48445"
-           y="138.82246"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="177.49504"
+           y="138.72704"
            id="tspan6-3-42">Optimizer</tspan></text>
       <circle
          style="fill:#b9cbe0;fill-opacity:1;stroke-width:1.03439"
