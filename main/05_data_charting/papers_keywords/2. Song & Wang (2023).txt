@@ -1,0 +1,1 @@
+Neural networks, fuzzy logic, Numerical modeling, Physics-informed neural network, Wave propagation

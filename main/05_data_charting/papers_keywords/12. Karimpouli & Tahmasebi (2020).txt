@@ -1,0 +1,1 @@
+Gaussian process (GP), Physics informed machine learning (PIML), Seismic wave, Optimization
