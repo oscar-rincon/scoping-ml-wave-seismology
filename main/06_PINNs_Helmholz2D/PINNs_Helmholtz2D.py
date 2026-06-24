@@ -452,6 +452,6 @@ ax_errT.legend(fontsize=7)
 
 # Save and display figure
 os.makedirs("figs", exist_ok=True)
-plt.savefig("figs/08_pinn_helmholtz2D_convergence_en.svg", dpi=150, bbox_inches="tight")
-plt.savefig("figs/08_pinn_helmholtz2D_convergence_en.pdf", dpi=150, bbox_inches="tight")
+plt.savefig("figs/pinn_helmholtz2D_convergence_en.svg", dpi=150, bbox_inches="tight")
+plt.savefig("figs/pinn_helmholtz2D_convergence_en.pdf", dpi=150, bbox_inches="tight")
 plt.show()
