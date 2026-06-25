@@ -2,8 +2,8 @@ from os import system, listdir
 from os.path import join
 import glob
 
-pdf_dir = "./papers_pdfs"
-txt_dir = "./papers_txts"
+pdf_dir = "./data/papers_pdfs"
+txt_dir = "./data/papers_txts"
 output_txt = "./data/text.txt"
 
 # --------------------------------------------------
