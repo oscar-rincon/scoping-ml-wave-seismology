@@ -1,4 +1,24 @@
 
+"""
+Created on Thu Jul 6 2025
+
+author: Oscar Rincón-Cardeño
+email: os.rinconc@gmail.com
+github: https://github.com/orincon
+
+This script solves a two-dimensional Helmholtz problem with homogeneous
+Dirichlet boundary conditions using a Physics-Informed Neural Network (PINN).
+The network employs sine activation functions and hard boundary constraints,
+and is trained using a combination of Adam and L-BFGS optimizers.
+
+A convergence study is performed by varying the number of interior collocation
+points. For each configuration, the script evaluates the relative error,
+training time, and inference time over multiple independent runs. Predicted
+fields and trained models are saved for post-processing, and the results are
+visualized through field comparisons, one-dimensional cross-sections, error
+convergence curves, and computational cost analyses.
+"""
+
 
 # imports
 import os
@@ -98,7 +118,6 @@ def pinn_loss(model, x_int, y_int, device):
 
     res = f_xx + f_yy - rhs_torch
     return torch.mean(res ** 2)
-
 
 
 # Training + evaluation loop
@@ -211,6 +230,7 @@ def run_pinn_experiments(device="cpu", num_repeats=3, save_results=True):
     return results
 
 
+
 # Run experiments
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 results = run_pinn_experiments(device=device, num_repeats=10)
@@ -236,104 +256,103 @@ for N in N_values:
         data = np.load(run_file)
         results_dict[N] = (data["X"], data["Y"], data["f_pred"], data["f_true"])
 
-# Figure configuration
-fig = plt.figure(figsize=(7.0, 6.5))
-outer_gs = GridSpec(4, 1, height_ratios=[0.6, 0.6, 0.30, 0.40],
-                    figure=fig, hspace=0.1)
+# # Figure configuration
+# fig = plt.figure(figsize=(7.0, 6.5))
+# outer_gs = GridSpec(4, 1, height_ratios=[0.6, 0.6, 0.30, 0.40],
+#                     figure=fig, hspace=0.1)
 
-colors = ['#45A5FF', "#0010A1", "#000000"]
-N_examples = [60, 80, 100]
+# colors = ['#45A5FF', "#0010A1", "#000000"]
+# N_examples = [60, 80, 100]
 
-# Sampling points
-gs_mesh = outer_gs[0].subgridspec(1, 3, wspace=0.35)
-for i, N in enumerate(N_examples):
-    ax = fig.add_subplot(gs_mesh[0, i])
-    ax.scatter(np.random.rand(N), np.random.rand(N), marker='o', color="#919191", s=15.0, alpha=0.4, edgecolors='none')
-    ax.set_aspect("equal")
-    ax.axis("off")
-    # --- Anotar número de puntos ---
-    ax.set_title(f"{N} puntos", fontsize=8, pad=6)
-fig.text(0.055, 0.77, r"Puntos de muestreo", fontsize=8, va="center", ha="left", rotation=90)
+# # Sampling points
+# gs_mesh = outer_gs[0].subgridspec(1, 3, wspace=0.35)
+# for i, N in enumerate(N_examples):
+#     ax = fig.add_subplot(gs_mesh[0, i])
+#     ax.scatter(np.random.rand(N), np.random.rand(N), marker='o', color="#919191", s=15.0, alpha=0.4, edgecolors='none')
+#     ax.set_aspect("equal")
+#     ax.axis("off")
+#     # --- Anotar número de puntos ---
+#     ax.set_title(f"{N} puntos", fontsize=8, pad=6)
+# fig.text(0.055, 0.77, r"Puntos de muestreo", fontsize=8, va="center", ha="left", rotation=90)
 
 
-# Predicted fields (aligned with the cuts)
-gs_top = outer_gs[1].subgridspec(1, 3, wspace=0.35)
-y_line = 0.375  # common cut line for both rows
-for i, (N, color) in enumerate(zip(N_examples, colors)):
-    ax = fig.add_subplot(gs_top[0, i])
-    X, Y, F_pred, _ = results_dict[N]
+# # Predicted fields (aligned with the cuts)
+# gs_top = outer_gs[1].subgridspec(1, 3, wspace=0.35)
+# y_line = 0.375  # common cut line for both rows
+# for i, (N, color) in enumerate(zip(N_examples, colors)):
+#     ax = fig.add_subplot(gs_top[0, i])
+#     X, Y, F_pred, _ = results_dict[N]
 
-    # To ensure exact alignment in the visualization:
-    ax.imshow(F_pred.T, extent=(0, 1, 0, 1), cmap="inferno",
-              vmin=-1, vmax=1, origin="lower", interpolation="bilinear")
-    ax.axhline(y_line, color=color, lw=1.2)
-    ax.set_aspect("equal")
-    ax.axis("off")
-fig.text(0.05, 0.52, r"$\hat{f}(x,y)$", fontsize=8, va="center", ha="left", rotation=90)
+#     # To ensure exact alignment in the visualization:
+#     ax.imshow(F_pred.T, extent=(0, 1, 0, 1), cmap="inferno",
+#               vmin=-1, vmax=1, origin="lower", interpolation="bilinear")
+#     ax.axhline(y_line, color=color, lw=1.2)
+#     ax.set_aspect("equal")
+#     ax.axis("off")
+# fig.text(0.05, 0.52, r"$\hat{f}(x,y)$", fontsize=8, va="center", ha="left", rotation=90)
 
-# 1D cut comparison (aligned with row 1)
-gs_mid = outer_gs[2].subgridspec(1, 3, wspace=0.35)
-for i, (N, color) in enumerate(zip(N_examples, colors)):
-    ax = fig.add_subplot(gs_mid[0, i])
-    X, Y, F_pred, F_true = results_dict[N]
+# # 1D cut comparison (aligned with row 1)
+# gs_mid = outer_gs[2].subgridspec(1, 3, wspace=0.35)
+# for i, (N, color) in enumerate(zip(N_examples, colors)):
+#     ax = fig.add_subplot(gs_mid[0, i])
+#     X, Y, F_pred, F_true = results_dict[N]
 
-    # Take the cut at the same y value as in row 1
-    idx = np.argmin(np.abs(Y[:, 0] - y_line))
+#     # Take the cut at the same y value as in row 1
+#     idx = np.argmin(np.abs(Y[:, 0] - y_line))
 
-    ax.plot(X[idx, :], F_true[idx, :], '-', color="#D4D4D4", lw=5.0, label="Exacta")
-    ax.plot(X[idx, :], F_pred[idx, :], '-', color=color, lw=1.2, label="PINN")
-    ax.xaxis.set_major_formatter(FormatStrFormatter('%.1f'))
-    ax.yaxis.set_major_formatter(FormatStrFormatter('%.1f'))
-    ax.set_xlim(0, 1)
-    ax.set_ylim(-1.15, 1.15)
-    ax.axis("off")
-fig.text(0.05, 0.34, r"$\hat{f}(x,0.375)$", fontsize=8, va="center", ha="left", rotation=90)
+#     ax.plot(X[idx, :], F_true[idx, :], '-', color="#D4D4D4", lw=5.0, label="Exacta")
+#     ax.plot(X[idx, :], F_pred[idx, :], '-', color=color, lw=1.2, label="PINN")
+#     ax.xaxis.set_major_formatter(FormatStrFormatter('%.1f'))
+#     ax.yaxis.set_major_formatter(FormatStrFormatter('%.1f'))
+#     ax.set_xlim(0, 1)
+#     ax.set_ylim(-1.15, 1.15)
+#     ax.axis("off")
+# fig.text(0.05, 0.34, r"$\hat{f}(x,0.375)$", fontsize=8, va="center", ha="left", rotation=90)
 
-# Bottom row: Error and computation times
-gs_bottom = outer_gs[3].subgridspec(1, 2, wspace=0.3)
-plt.subplots_adjust(hspace=0.15)  # ← agrega separación solo entre la 3ª y 4ª fila
+# # Bottom row: Error and computation times
+# gs_bottom = outer_gs[3].subgridspec(1, 2, wspace=0.3)
+# plt.subplots_adjust(hspace=0.15)  # ← agrega separación solo entre la 3ª y 4ª fila
 
-ax_errN = fig.add_subplot(gs_bottom[0, 0])
-ax_errT = fig.add_subplot(gs_bottom[0, 1])
+# ax_errN = fig.add_subplot(gs_bottom[0, 0])
+# ax_errT = fig.add_subplot(gs_bottom[0, 1])
 
-# Error relativo vs N
-ax_errN.plot(N_values, relative_errors, '-', color='#AFAFAF', marker='s', markersize=4)
+# # Error relativo vs N
+# ax_errN.plot(N_values, relative_errors, '-', color='#AFAFAF', marker='s', markersize=4)
 
-# Highlight the three example cases
-for N, color in zip(N_examples, colors):
-    idx = np.where(N_values == N)[0][0]
-    ax_errN.scatter(N_values[idx], relative_errors[idx],
-                    color=color, marker='s', s=40, edgecolor='gray', zorder=3)
+# # Highlight the three example cases
+# for N, color in zip(N_examples, colors):
+#     idx = np.where(N_values == N)[0][0]
+#     ax_errN.scatter(N_values[idx], relative_errors[idx],
+#                     color=color, marker='s', s=40, edgecolor='gray', zorder=3)
 
-ax_errN.set_xlabel("Número de puntos")
-ax_errN.set_ylabel("Error relativo")
-ax_errN.set_yscale("log")
-ax_errN.set_ylim(top=1e1, bottom=1e-2)
+# ax_errN.set_xlabel("Número de puntos")
+# ax_errN.set_ylabel("Error relativo")
+# ax_errN.set_yscale("log")
+# ax_errN.set_ylim(top=1e1, bottom=1e-2)
 
-# --- Tiempos de entrenamiento y evaluación ---
-ax_errT.plot(N_values, train_times, '-', color="#AFAFAF", marker='s',
-             markersize=4, label="Entrenamiento")
-ax_errT.plot(N_values, eval_times, '-', color="#AFAFAF", marker='o',
-             markersize=4, label="Evaluación")
+# # --- Tiempos de entrenamiento y evaluación ---
+# ax_errT.plot(N_values, train_times, '-', color="#AFAFAF", marker='s',
+#              markersize=4, label="Entrenamiento")
+# ax_errT.plot(N_values, eval_times, '-', color="#AFAFAF", marker='o',
+#              markersize=4, label="Evaluación")
 
-# Resaltar los tres casos de ejemplo
-for N, color in zip(N_examples, colors):
-    idx = np.where(N_values == N)[0][0]
-    ax_errT.scatter(N_values[idx], train_times[idx], color=color, marker='s', s=40, edgecolor='gray', zorder=3)
-    ax_errT.scatter(N_values[idx], eval_times[idx], color=color, marker='o', s=40, edgecolor='gray', zorder=3)
+# # Resaltar los tres casos de ejemplo
+# for N, color in zip(N_examples, colors):
+#     idx = np.where(N_values == N)[0][0]
+#     ax_errT.scatter(N_values[idx], train_times[idx], color=color, marker='s', s=40, edgecolor='gray', zorder=3)
+#     ax_errT.scatter(N_values[idx], eval_times[idx], color=color, marker='o', s=40, edgecolor='gray', zorder=3)
 
-ax_errT.set_xlabel("Número de puntos")
-ax_errT.set_ylabel("Tiempo (s)")
-ax_errT.set_yscale("log")
-ax_errT.set_ylim(top=1e3, bottom=1e-4)
-ax_errT.legend(fontsize=7)
+# ax_errT.set_xlabel("Número de puntos")
+# ax_errT.set_ylabel("Tiempo (s)")
+# ax_errT.set_yscale("log")
+# ax_errT.set_ylim(top=1e3, bottom=1e-4)
+# ax_errT.legend(fontsize=7)
 
-# Save and show figure
-os.makedirs("figs", exist_ok=True)
-plt.savefig("figs/08_pinn_helmholtz2D_convergence_esp.svg", dpi=150, bbox_inches="tight")
-plt.savefig("figs/08_pinn_helmholtz2D_convergence_esp.pdf", dpi=150, bbox_inches="tight")
-plt.show()
-
+# # Save and show figure
+# os.makedirs("figs", exist_ok=True)
+# plt.savefig("figs/08_pinn_helmholtz2D_convergence_esp.svg", dpi=150, bbox_inches="tight")
+# plt.savefig("figs/08_pinn_helmholtz2D_convergence_esp.pdf", dpi=150, bbox_inches="tight")
+# plt.show()
 
 # Load and prepare data
 df = pd.read_csv("data/pinn_helmholtz_experiment.csv")

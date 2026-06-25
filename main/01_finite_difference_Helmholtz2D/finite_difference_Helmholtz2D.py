@@ -1,3 +1,24 @@
+
+"""
+Created on Mon Oct 11 2025
+
+author: Oscar Rincón-Cardeño
+email: os.rinconc@gmail.com
+github: https://github.com/orincon
+
+This script solves a two-dimensional Helmholtz problem with homogeneous
+Dirichlet boundary conditions using a finite-difference discretization of
+the Laplacian operator. The resulting linear system is assembled and solved
+on structured grids of varying resolutions.
+
+A convergence study is performed by increasing the number of grid points.
+For each mesh, the script computes the numerical solution, evaluates the
+relative error against the analytical solution on a reference grid, and
+measures the computational time. The results are visualized through solution
+fields, one-dimensional cross-sections, error convergence curves, and
+computational cost analyses, with figures exported in PDF and SVG formats.
+"""
+
 from importlib import reload
 import os
 import sys

@@ -1,4 +1,21 @@
 
+"""
+Created on Thu Jul 6 2026
+
+author: Oscar Rincón-Cardeño
+email: os.rinconc@gmail.com
+github: https://github.com/orincon
+
+This script performs two-dimensional seismic wave propagation modeling using
+the Devito finite-difference framework and a velocity model extracted from the
+Overthrust dataset. A Ricker wavelet source is propagated through the medium,
+and synthetic seismic data are recorded at multiple receiver locations.
+
+The script visualizes the subsurface velocity model, the propagated wavefield
+at a selected time instant, and the corresponding synthetic seismograms. The
+results are exported as publication-quality figures in both English and Spanish
+versions, with PDF and SVG outputs.
+"""
 
 import os
 import sys
