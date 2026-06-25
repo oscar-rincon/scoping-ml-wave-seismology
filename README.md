@@ -83,7 +83,6 @@ conda list -n ml-seismic-waves-env
 
 ![seismic_inverse](main/05_seismic_inverse/figs/seismic_inverse.svg)
 
-
 - `06_PINNs_Helmholz2D/`: Ilustrative example of PINNs sampling.
 
 ![PINNs_Helmholz2D](main/06_PINNs_Helmholz2D/figs/pinn_helmholtz2D_convergence.svg)
