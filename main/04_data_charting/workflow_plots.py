@@ -1,12 +1,11 @@
+
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib_venn import venn2
 
-#%%
-
- 
 
 # Leer los archivos CSV
 df_openalex = pd.read_csv('data/OpenAlex_seismic_waves_both.csv')
@@ -49,8 +48,8 @@ print(f"Total de títulos duplicados: {len(duplicated_titles)}")
 print(f"Total de títulos en Scopus que no están en OpenAlex: {len(titles_in_scopus_not_in_openalex)}")
 print(f"Total de títulos en OpenAlex que no están en Scopus: {len(titles_in_openalex_not_in_scopus)}")
 
-color_forward = '#2255a080'   # blue w/ alpha
-color_inverse = '#8e8e8e80'   # gray w/ alpha
+color_forward = '#b9cbe0ff'   # blue w/ alpha
+color_inverse = '#d6d6d683'   # gray w/ alpha
 
 # Figure 
 fig, ax = plt.subplots(figsize=(2.2, 2.2))
@@ -93,8 +92,8 @@ df_manual = pd.read_csv('data/Manually filtered.csv')
 item_types = df_manual['Item Type'].dropna()
 item_type_counts = item_types.value_counts()
 
-color_forward = '#2255a080'
-color_inverse = '#8e8e8e'
+color_forward = '#b9cbe0ff'
+color_inverse = '#d6d6d683'
 bar_width = 0.35
 
 #Read data 
@@ -132,41 +131,256 @@ forward_vals = [forward_counts.get(y, 0) for y in years]
 inverse_vals = [inverse_counts.get(y, 0) for y in years]
 x = np.array(years)
 
-#  Figure
-fig = plt.figure(figsize=(6.7, 2.0))  
-gs = GridSpec(1, 2, width_ratios=[1, 1.4], figure=fig)
 
-fig.subplots_adjust(left=0.08, right=0.98, bottom=0.30, top=0.95, wspace=0.40)
+import pandas as pd
 
-ax1 = fig.add_subplot(gs[0, 0])
-ax1.bar(item_type_counts.index, item_type_counts.values, color=color_inverse)
+# Read CSV files
+publications_forward = pd.read_csv('data/publications_review_forward.csv')
+publications_inverse = pd.read_csv('data/publications_review_inverse.csv')
+
+# Add problem type
+publications_forward["Problem Type"] = "Forward"
+publications_inverse["Problem Type"] = "Inverse"
+
+# Define columns to keep
+cols = [
+    "Problem Type",
+    "Item Type",
+    "Publication Year",
+    "Title",
+    "Author",
+    "Publication Title",
+]
+
+# Combine both datasets
+publications = pd.concat(
+    [
+        publications_forward[cols],
+        publications_inverse[cols]
+    ],
+    ignore_index=True
+)
+
+# Sort by year (newest first) and then title
+publications = publications.sort_values(
+    by=["Publication Year", "Title"],
+    ascending=[False, True]
+).reset_index(drop=True)
+
+publications.to_csv(
+    "data/publications_review.csv",
+    index=False
+)
+
+
+# Count publication titles
+publication_counts = df_manual["Publication Title"].value_counts()
+
+# Top 4 most common journals
+top_4_publications = publication_counts.head(4)
+
+# Store names and counts in variables
+top_publication_names = top_4_publications.index.tolist()
+top_publication_values = top_4_publications.values.tolist()
+
+print(top_4_publications)
+
+journal_short = [
+    "IEEE TGRS",
+    "Geophysics",
+    "Acta Geophysica",
+    "GJI"
+]
+
+# -----------------------------------------------------------------------------
+# Publications per year and problem type
+# -----------------------------------------------------------------------------
+year_counts = (
+    publications
+    .groupby(["Publication Year", "Problem Type"])
+    .size()
+    .unstack(fill_value=0)
+    .sort_index()
+)
+
+years = year_counts.index.to_numpy()
+
+forward_vals = (
+    year_counts["Forward"].to_numpy()
+    if "Forward" in year_counts.columns
+    else np.zeros(len(years))
+)
+
+inverse_vals = (
+    year_counts["Inverse"].to_numpy()
+    if "Inverse" in year_counts.columns
+    else np.zeros(len(years))
+)
+
+x = np.arange(len(years))
+bar_width = 0.4
+
+# -----------------------------------------------------------------------------
+# Document types
+# -----------------------------------------------------------------------------
+item_type_counts = (
+    publications["Item Type"]
+    .value_counts()
+)
+
+# -----------------------------------------------------------------------------
+# Top journals
+# -----------------------------------------------------------------------------
+top_publications = (
+    publications["Publication Title"]
+    .dropna()
+    .value_counts()
+    .head(4)
+)
+
+top_publication_names = top_publications.index.tolist()
+top_publication_values = top_publications.values
+
+
+# -----------------------------------------------------------------------------
+# Figure layout
+# -----------------------------------------------------------------------------
+fig = plt.figure(figsize=(6.0, 4.2))
+
+gs = GridSpec(
+    2, 2,
+    height_ratios=[1.3, 1],
+    width_ratios=[1, 1.4],
+    figure=fig
+)
+
+fig.subplots_adjust(
+    left=0.08,
+    right=0.98,
+    bottom=0.12,
+    top=0.95,
+    hspace=0.70,
+    wspace=0.45
+)
+
+# -----------------------------------------------------------------------------
+# Panel A: Publications per year (full top row)
+# -----------------------------------------------------------------------------
+ax1 = fig.add_subplot(gs[0, :])
+
+ax1.bar(
+    x - bar_width / 2,
+    forward_vals,
+    width=bar_width,
+    color=color_forward,
+    label="Forward"
+)
+
+ax1.bar(
+    x + bar_width / 2,
+    inverse_vals,
+    width=bar_width,
+    color=color_inverse,
+    label="Inverse"
+)
+
+ax1.set_xticks(x)
+ax1.set_xticklabels(years)
+
+ax1.set_xlim(-0.5, len(years) - 0.5)
 
 ax1.set_ylabel("Number of publications", fontsize=8)
-ax1.tick_params(axis='x', rotation=40, labelsize=8)
-ax1.tick_params(axis='y', labelsize=8)
+ax1.set_xlabel("Year", fontsize=8)
+
+#ax1.set_xticks(np.arange(min(years), max(years) + 1, 1))
+#ax1.set_xlim(min(years) - 0.5, max(years) + 0.5)
+
+ax1.tick_params(axis='both', labelsize=8)
+
+ax1.legend(
+    frameon=False,
+    fontsize=8,
+    loc='upper left'
+)
 
 ax1.spines['top'].set_visible(False)
 ax1.spines['right'].set_visible(False)
-ax2 = fig.add_subplot(gs[0, 1])
-ax2.bar(x - bar_width/2, forward_vals, width=bar_width,
-        color=color_forward, label='Forward problems')
-ax2.bar(x + bar_width/2, inverse_vals, width=bar_width,
-        color=color_inverse, label='Inverse problems')
-ax2.set_xlabel("Year", fontsize=8)
-ax2.set_ylabel("Number of publications", fontsize=8)
-ax2.set_xticks(np.arange(min(years), max(years)+1, 2))
-ax2.set_xlim(min(years)-0.5, max(years)+0.5)
 
-ax2.tick_params(axis='both', labelsize=8)
-ax2.legend(frameon=False, fontsize=8, loc='upper left')
+# -----------------------------------------------------------------------------
+# Move top panel slightly to the left
+# -----------------------------------------------------------------------------
+pos = ax1.get_position()
+
+ax1.set_position([
+    pos.x0 - 0.025,      # move left
+    pos.y0,
+    pos.width * 0.92,    # reduce width
+    pos.height
+])
+
+# -----------------------------------------------------------------------------
+# Panel B: Document types (bottom left)
+# -----------------------------------------------------------------------------
+ax2 = fig.add_subplot(gs[1, 0])
+
+item_order = np.argsort(item_type_counts.values)
+
+ax2.barh(
+    item_type_counts.index[item_order],
+    item_type_counts.values[item_order],
+    color=color_inverse
+)
+
+ax2.set_title("Document types", fontsize=8)
+ax2.set_xlabel("Number of publications", fontsize=8)
+
+ax2.tick_params(axis='x', labelsize=8)
+ax2.tick_params(axis='y', labelsize=8)
 
 ax2.spines['top'].set_visible(False)
 ax2.spines['right'].set_visible(False)
 
-# Save 
-plt.savefig(
-    'figs/item_types_and_publications_per_year.svg',
-    dpi=300,
-    bbox_inches='tight'  
+# -----------------------------------------------------------------------------
+# Panel C: Top journals (bottom right)
+# -----------------------------------------------------------------------------
+ax3 = fig.add_subplot(gs[1, 1])
+
+journal_order = np.argsort(top_publication_values)
+
+ax3.barh(
+    np.array(journal_short)[journal_order],
+    np.array(top_publication_values)[journal_order],
+    color=color_inverse
 )
+
+ax3.set_title("Top journals", fontsize=8)
+ax3.set_xlabel("Number of publications", fontsize=8)
+
+ax3.tick_params(axis='x', labelsize=8)
+ax3.tick_params(axis='y', labelsize=7)
+
+ax3.spines['top'].set_visible(False)
+ax3.spines['right'].set_visible(False)
+
+# -----------------------------------------------------------------------------
+# Show largest category at top
+# -----------------------------------------------------------------------------
+ax2.invert_yaxis()
+ax3.invert_yaxis()
+
+# -----------------------------------------------------------------------------
+# Save
+# -----------------------------------------------------------------------------
+plt.savefig(
+    "figs/item_types_and_publications_per_year.svg",
+    dpi=300,
+    bbox_inches="tight"
+)
+
+plt.savefig(
+    "figs/item_types_and_publications_per_year.pdf",
+    dpi=300,
+    bbox_inches="tight"
+)
+
 plt.show()

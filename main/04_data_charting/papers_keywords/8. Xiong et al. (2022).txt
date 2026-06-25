@@ -1,1 +1,0 @@
-Wave propagation model, Deep neural network, Training and test, Dispersion and attenuation, Numerical simulation

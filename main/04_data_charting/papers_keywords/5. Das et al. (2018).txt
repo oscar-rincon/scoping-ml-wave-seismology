@@ -1,1 +1,0 @@
-Synthetic seismogram generation, time domain compression, surrogate meta-model,  microseismic event detection, Gaussian process regression

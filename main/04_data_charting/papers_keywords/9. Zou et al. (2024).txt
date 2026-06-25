@@ -1,1 +1,0 @@
-Physics-informed neural network (PINN), seismic modeling, variable velocity models, velocity-encoded (VE) strategy
