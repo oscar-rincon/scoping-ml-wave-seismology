@@ -77,8 +77,7 @@ conda list -n ml-seismic-waves-env
 
 - `04_data_charting/`: Charting data obtained from the review search.
 
-![item_types_and_publications_per_year](main/05_data_charting/figs/item_types_and_publications_per_year.svg)
-
+![item_types_and_publications_per_year](main/04_data_charting/figs/item_types_and_publications_per_year.svg)
 
 - `05_seismic_inverse/`: Ilustrative example of seismic inversion.
 
