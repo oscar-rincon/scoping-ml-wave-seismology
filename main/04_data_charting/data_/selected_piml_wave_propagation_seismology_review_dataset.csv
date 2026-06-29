@@ -1,0 +1,41 @@
+Problem Type,Item Type,Publication Year,Title,Author,Source
+Forward,journalArticle,2025,Multiple-input Fourier Neural Operator (MIFNO) for source-dependent 3D elastodynamics,"Lehmann, Fanny; Gatti, Filippo; Clouteau, Didier",Journal of Computational Physics
+Forward,journalArticle,2024,An Efficient Platform for Numerical Modeling of Partial Differential Equations,"Ji, Duofa; Li, Chenxi; Zhai, Changhai; Cao, Zelin",IEEE Transactions on Geoscience and Remote Sensing
+Inverse,journalArticle,2024,Low-frequency marine seismic data reconstruction based on the far-field signature using a modified U-Net,"Park, Y.; Moon, H.-J.; Pyun, S.",Exploration Geophysics
+Inverse,journalArticle,2024,PINNslope: Seismic data interpolation and local slope estimation with physics informed neural networks,"Brandolin, F.; Ravasi, M.; Alkhalifah, T.",Geophysics
+Inverse,journalArticle,2024,Parametric elastic full waveform inversion with convolutional neural network,"Guo, K.; Zong, Z.; Yang, J.; Tan, Y.",Acta Geophysica
+Inverse,preprint,2024,Robust Full Waveform Inversion with deep Hessian deblurring,"Alfarhan, Mustafa; Ravasi, Matteo; Chen, Fuqiang; Alkhalifah, Tariq",arXiv
+Inverse,journalArticle,2024,Seismic Velocity Inversion Based on Physically Constrained Neural Networks,"Zhang, Y.; Meng, D.; Zhou, Y.; Song, L.; Dong, H.",IEEE Transactions on Geoscience and Remote Sensing
+Forward,journalArticle,2024,Seismic Wavefields Modeling With Variable Horizontally Layered Velocity Models via Velocity-Encoded PINN,"Zou, J.; Liu, C.; Zhao, P.; Song, C.",IEEE Transactions on Geoscience and Remote Sensing
+Inverse,journalArticle,2024,Shear-wave velocity prediction of tight reservoirs based on poroelasticity theory: A comparative study of deep neural network and rock physics model,"Fang, Z.; Ba, J.; Guo, Q.; Xiong, F.",Geoenergy Science and Engineering
+Inverse,journalArticle,2024,Underground hydrogen storage leakage detection and characterization based on machine learning of sparse seismic data,"Gao, K.; Creasy, N.M.; Huang, L.; Gross, M.R.",International Journal of Hydrogen Energy
+Inverse,journalArticle,2023,Autoencoded Elastic Wave-Equation Traveltime Inversion: Toward Reliable Near-Surface Tomogram,"Zhang, Chang; Li, Jing; Yu, Han; Liu, Bin",IEEE Transactions on Geoscience and Remote Sensing
+Inverse,preprint,2023,Deep Neural Helmholtz Operators for 3D Elastic Wave Propagation and Inversion,"Zou, Caifeng; Azizzadenesheli, Kamyar; Ross, Zachary E.; Clayton, Robert W.",arXiv
+Inverse,journalArticle,2023,Encoder-Decoder Architecture for 3D Seismic Inversion,"Gelboim, M.; Adler, A.; Sun, Y.; Araya-Polo, M.",Sensors
+Inverse,journalArticle,2023,Memory Optimization in RNN-Based Full Waveform Inversion Using Boundary Saving Wavefield Reconstruction,"Wang, S.; Jiang, Y.; Song, P.; Tan, J.; Liu, Z.; He, B.",IEEE Transactions on Geoscience and Remote Sensing
+Inverse,journalArticle,2023,Physics-Guided Unsupervised Deep-Learning Seismic Inversion With Uncertainty Quantification,"Zhang, Y.; Singh, S.; Thanoon, D.; Devarakota, P.; Jin, L.; Tsvankin, I.",Journal of Seismic Exploration
+Forward,journalArticle,2023,Rapid Seismic Waveform Modeling and Inversion With Neural Operators,"Yang, Y.; Gao, A.F.; Azizzadenesheli, K.; Clayton, R.W.; Ross, Z.E.",IEEE Transactions on Geoscience and Remote Sensing
+Inverse,journalArticle,2023,Seismic Inversion Based on Acoustic Wave Equations Using Physics-Informed Neural Network,"Zhang, Yijie; Zhu, Xueyu; Gao, Jinghuai",IEEE Transactions on Geoscience and Remote Sensing
+Inverse,journalArticle,2023,Seismic Velocity Inversion via Physical Embedding Recurrent Neural Networks (RNN),"Lu, C.; Zhang, C.",Applied Sciences (Switzerland)
+Forward,journalArticle,2023,Simulating seismic multifrequency wavefields with the Fourier feature physics-informed neural network,"Song, C.; Wang, Y.",Geophysical Journal International
+Inverse,journalArticle,2022,An Intriguing Property of Geophysics Inversion,"Feng, Yinan; Chen, Yinpeng; Feng, Shihang; Jin, Peng; Liu, Zicheng; Lin, Youzuo",arXiv (Cornell University)
+Inverse,bookSection,2022,Applying scientific machine learning to improve seismic wave simulation and inversion,"Huang, L.; Clee, E.; Ranasinghe, N.",Advances in Subsurface Data Analytics: Traditional and Physics-Based Machine Learning
+Inverse,conferencePaper,2022,Deep learning-based groundwater storage estimation from seismic data,"Lähivaara, T.; Malehmir, A.; Pasanen, A.; Kärkkäinen, L.; Huttunen, J.M.J.; Hesthaven, J.S.",2nd EAGE Conference on Seismic Inversion
+Forward,journalArticle,2022,Deep-neural-networks-based approaches for Biot–squirt model in rock physics,"Xiong, F.; Liu, J.; Guo, Z.; Liu, J.",Acta Geophysica
+Inverse,conferencePaper,2022,Elastic-AdjointNet: A physics guided deep autoencoder to overcome cross talk effects in multiparameter full waveform inversion,"Dhara, A.; Sen, M.",SEG Technical Program Expanded Abstracts
+Forward,journalArticle,2022,High-frequency wavefield extrapolation using the Fourier neural operator,"Song, C.; Wang, Y.",Journal of Geophysics and Engineering
+Inverse,preprint,2021,Revisit Geophysical Imaging in A New View of Physics-informed Generative Adversarial Learning,"Yang, Fangshu; Ma, Jianwei",arXiv
+Inverse,journalArticle,2021,Seismic Wave Propagation and Inversion with Neural Operators,"Yang, Y.; Gao, A.F.; Castellanos, J.C.; Ross, Z.E.; Azizzadenesheli, K.; Clayton, R.W.",Seismic Record
+Inverse,journalArticle,2021,Sensing and computational frameworks for improving drill-string dynamics estimation,"Auriol, J.; Kazemi, N.; Niculescu, S.-I.",Mechanical Systems and Signal Processing
+Forward,journalArticle,2021,Synthetic seismic data generation with deep learning,"Roncoroni, G.; Fortini, C.; Bortolussi, L.; Bienati, N.; Pipan, M.",Journal of Applied Geophysics
+Inverse,journalArticle,2020,A Physics-Based Neural-Network Way to Perform Seismic Full Waveform Inversion,"Ren, Y.; Xu, X.; Yang, S.; Nie, L.; Chen, Y.",IEEE Access
+Forward,journalArticle,2020,Deep learning for fast simulation of seismic waves in complex media,"Moseley, Ben; Nissen-Meyer, Tarje; Markham, Andrew",Solid Earth
+Inverse,journalArticle,2020,Deep learning seismic substructure detection using the Frozen Gaussian approximation,"Hateley, James C.; Roberts, Jay; Mylonakis, Kyle; Yang, Xu",Journal of Computational Physics
+Inverse,journalArticle,2020,Near-real-time near-surface 3D seismic velocity and uncertainty models by wavefield gradiometry and neural network inversion of ambient seismic noise,"Cao, R.; Earp, S.; De Ridder, S.A.L.; Curtis, A.; Galetti, E.",Geophysics
+Inverse,journalArticle,2020,Physics informed machine learning: Seismic wave equation,"Karimpouli, Sadegh; Tahmasebi, Pejman",Geoscience Frontiers
+Inverse,journalArticle,2020,Stochastic Seismic Waveform Inversion Using Generative Adversarial Networks as a Geological Prior,"Mosser, L.; Dubrule, O.; Blunt, M.J.",Mathematical Geosciences
+Inverse,conferencePaper,2019,An empirical analysis of the influence of seismic data modeling for estimating velocity models with fully convolutional networks,"Campos, L.R.; Nogueira, P.; Moreira, D.; Nascimento, E.G.S.","WMSCI 2019 - 23rd World Multi-Conference on Systemics, Cybernetics and Informatics, Proceedings"
+Inverse,conferencePaper,2019,Physics informed neural networks for velocity inversion,"Xu, Y.; Li, J.; Chen, X.",SEG Technical Program Expanded Abstracts
+Inverse,conferencePaper,2019,Seismic waveform inversion using a neural network-based forward,"Fu, H.; Zhang, Y.; Ma, M.",Journal of Physics: Conference Series
+Forward,journalArticle,2018,Surrogate regression modelling for fast seismogram generation and detection of microseismic events in heterogeneous velocity models,"Das, S.; Chen, X.; Hobson, M.P.; Phadke, S.; van Beest, B.; Goudswaard, J.; Hohl, D.",Geophysical Journal International
+Inverse,conferencePaper,2018,Velocity model building with a modified fully convolutional network,"Wang, W.; Yang, F.; Ma, J.",SEG Technical Program Expanded Abstracts
