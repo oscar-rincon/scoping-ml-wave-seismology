@@ -1,0 +1,58 @@
+Title
+The pseudo‐analytical method: Application of pseudo‐Laplacians to acoustic and acoustic anisotropic wave propagation
+Time-dispersion filter for finite-difference modeling and reverse time migration
+Wave propagation with physics informed neural networks
+Wavefield reconstruction inversion via machine learned functions
+FWI without low frequency data - beat tone inversion
+Deep generative models for accelerated Bayesian posterior inference of microseismic events
+Geotechnical Site Characterization via Deep Neural Networks: Recovering the Shear Wave Velocity Profile of Layered Soils
+"LASIF: LArge-scale Seismic Inversion Framework, an updated version"
+Least‐squares cross‐well migration
+"Imaging the Earth&#8217;s small structures: AI-driven, Bayesian inference of microstructure descriptors from finite-frequency waves"
+Imaging of primaries and multiples with 3D SEAM synthetic
+Imaging dispersion curves of surface waves on multi‐channel record
+"Frozen Gaussian Approximation for Elastic Waves, Seismic Inversion and Deep Learning"
+Fastershot‐record depth migrations using phase encoding
+Fast local cross‐correlations of images
+Enabling Uncertainty Quantification in a standard Full Waveform Inversion method using Normalizing Flows
+Deghosting by joint deconvolution of a migration and a mirror migration
+Deblending of simulated simultaneous sources using an iterative approach: An experiment with variable-depth streamer data
+Convolutional perfectly matched layer for isotropic and anisotropic acoustic wave equations
+Automatic salt-body classification using deep-convolutional neural network
+3D velocity model building based upon hybrid neural network
+An Iterative Inversion Of Seismic Data Constrained By Wells Using Artificial Neural Networks
+A two-stage Markov chain Monte Carlo method for velocity estimation and uncertainty quantification
+A level set based method for 2D elastic waveform inversion with a stochastic gradient descent approach with a 3D and machine learning prospect
+A 3D pseudospectral method for SH-wave simulation in heterogeneous media
+A deep learning-based earthquake simulator: from source and geology to surface wavefields
+3‐D seismic discontinuity for faults and stratigraphic features: The coherence cube
+Source separation of simultaneous source OBC data
+Specular/diffraction imaging by full azimuth subsurface angle domain decomposition
+Subsalt multiple attenuation and imaging: Observations from the Sigsbee2B synthetic dataset
+"Strike shooting, dip shooting, widepatch shooting — Does prestack depth migration care? A model study"
+Deep learning tutorial for denoising.
+Deep Learning Seismic Inversion Based on Prestack Waveform Datasets
+A deep learning-based inverse Hessian for Full Waveform Inversion
+Simulation of Pier Ground Motion Wave Propagation Based on Machine Learning Algorithm and FEPG Finite Element Analysis System
+Effects of Acoustic Stimulation on Fluid Flow in Porous Media
+Improving Distributed Acoustic Sensing Data Quality with Self-Supervised Learning
+16. Detection of Buried Steel Drums from Magnetic Anomaly Data Using an Artificial Intelligence Technique
+3. Velocity Analysis and Statics Corrections
+An Intriguing Property of Geophysics Inversion
+Training an Inverse Operator on Shingling Seismic Data based on cGANs
+Seismic inversion by multiscale Newtonian machine learning inversion
+Artificial Intelligence Improves Seismic-Image Reconstruction
+Anisotropic eikonal solution using physics-informed neural networks
+Solution of an inverse dynamical seismic problem on the base of a deep convolutional neural network
+Simultaneous sources separation via multi‐directional vector‐median filter
+Separation and imaging of seismic diffractions using plane‐wave decomposition
+Scattering on the cloud: scaling-up wave physics computations
+Robust surface-wave full-waveform inversion
+Refining AVO Interpretation for Reservoir Characterization with Neural Networks
+"Rapid Replication of Best Practices through Machine Learning. Never mind the network, look at the data!"
+Preconditioning full waveform inversion with phase‐encoded Hessian
+"Numerical Temporal Dispersion Corrections For Broadband Temporal Simulation, RTM and FWI"
+No-compromise marine seismic: A full-azimuth survey design for total-wavefield velocity model building and imaging in the deep-water Gulf of Mexico
+Multiscale seismic-envelope inversion for salt structures using a new direct-envelope Fréchet derivative
+System formulation of the nonlinear relaxing wave equation for high-order finite-difference approaches
+Tackling the “Data Deluge”: a Dimensionality-reduction Approach

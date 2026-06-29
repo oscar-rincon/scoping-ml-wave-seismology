@@ -37,10 +37,6 @@ ALLOWED_POS = ("NN", "NNS", "NNP", "NNPS", "JJ", "JJR", "JJS")
 df_stopwords = pd.read_csv("data/stop_words.csv")
 CUSTOM_STOPWORDS = set(df_stopwords["word"].str.lower())
 
-
-
-
-
 #after lemmatization & normalization
 bad_words = {
     "accuracy surrogate",

@@ -1,0 +1,1 @@
+Bridging the gap: Deep learning on seismic field data with synthetic training for building Gulf of Mexico velocity models

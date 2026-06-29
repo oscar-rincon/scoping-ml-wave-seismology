@@ -32,7 +32,6 @@ tomography
 reverse
 spectral
 autoencoder
-rcnn
 hpc
 software
 PyTorch
@@ -141,3 +140,4 @@ migrated
 stationary
 counterpart
 enhanced
+beneficial
