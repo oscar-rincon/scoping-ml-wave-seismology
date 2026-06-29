@@ -27,19 +27,19 @@ titles_in_scopus_not_in_openalex = set_scopus - set_openalex
 
 # Guardar títulos duplicados
 duplicated_titles_df = pd.DataFrame(sorted(duplicated_titles), columns=['Title'])
-duplicated_titles_df.to_csv('data/duplicated_titles.csv', index=False)
+duplicated_titles_df.to_csv('data_/duplicated_titles.csv', index=False)
 
 # Guardar títulos únicos de OpenAlex
 openalex_unique_df = df_openalex[
     df_openalex['Title'].isin(titles_in_openalex_not_in_scopus)
 ][['Title']]
-openalex_unique_df.to_csv('data/titles_openalex_not_in_scopus.csv', index=False)
+openalex_unique_df.to_csv('data_/titles_openalex_not_in_scopus.csv', index=False)
 
 # Guardar títulos únicos de Scopus
 scopus_unique_df = df_scopus[
     df_scopus['Title'].isin(titles_in_scopus_not_in_openalex)
 ][['Title']]
-scopus_unique_df.to_csv('data/titles_scopus_not_in_openalex.csv', index=False)
+scopus_unique_df.to_csv('data_/titles_scopus_not_in_openalex.csv', index=False)
 
 # Imprimir totales
 print(f"Total de títulos en OpenAlex: {len(set_openalex)}")
@@ -84,97 +84,17 @@ plt.savefig(
     'figs/duplicates.svg',
     bbox_inches='tight'
 )
-plt.show()
  
-#%%
 
-df_manual = pd.read_csv('data/Manually filtered.csv')
-item_types = df_manual['Item Type'].dropna()
-item_type_counts = item_types.value_counts()
+selected_publications = pd.read_csv('data_/selected_piml_wave_propagation_seismology_review_dataset.csv')
 
-color_forward = '#b9cbe0ff'
-color_inverse = '#d6d6d683'
-bar_width = 0.35
-
-#Read data 
-df_manual_forward = pd.read_csv('data/Manually_filtered_forward.csv')
-df_manual_inverse = pd.read_csv('data/Manually_filtered_inverse.csv')
-
-# Combine & deduplicate 
-combined_df = pd.concat([df_manual_forward, df_manual_inverse], ignore_index=True)
-combined_df_unique = combined_df.drop_duplicates(subset='Title')
-
-# Normalize Item Type 
-item_type_map = {
-    'journalArticle': 'Journal article',
-    'conferencePaper': 'Conference paper',
-    'preprint': 'Preprint',
-    'bookSection': 'Book chapter',
-    'thesis': 'Thesis',
-    'report': 'Report'
-}
-
-combined_df_unique['Item Type (clean)'] = (
-    combined_df_unique['Item Type']
-    .map(item_type_map)
-    .fillna(combined_df_unique['Item Type'])
-)
-
-item_type_counts = combined_df_unique['Item Type (clean)'].value_counts()
-
-# Publication counts 
-forward_counts = df_manual_forward['Publication Year'].value_counts().sort_index()
-inverse_counts = df_manual_inverse['Publication Year'].value_counts().sort_index()
-
-years = sorted(set(forward_counts.index).union(inverse_counts.index))
-forward_vals = [forward_counts.get(y, 0) for y in years]
-inverse_vals = [inverse_counts.get(y, 0) for y in years]
-x = np.array(years)
-
-
-import pandas as pd
-
-# Read CSV files
-publications_forward = pd.read_csv('data/publications_review_forward.csv')
-publications_inverse = pd.read_csv('data/publications_review_inverse.csv')
-
-# Add problem type
-publications_forward["Problem Type"] = "Forward"
-publications_inverse["Problem Type"] = "Inverse"
-
-# Define columns to keep
-cols = [
-    "Problem Type",
-    "Item Type",
-    "Publication Year",
-    "Title",
-    "Author",
-    "Publication Title",
+# Filter only journal articles
+journal_articles = selected_publications[
+    selected_publications["Item Type"] == "journalArticle"
 ]
 
-# Combine both datasets
-publications = pd.concat(
-    [
-        publications_forward[cols],
-        publications_inverse[cols]
-    ],
-    ignore_index=True
-)
-
-# Sort by year (newest first) and then title
-publications = publications.sort_values(
-    by=["Publication Year", "Title"],
-    ascending=[False, True]
-).reset_index(drop=True)
-
-publications.to_csv(
-    "data/publications_review.csv",
-    index=False
-)
-
-
-# Count publication titles
-publication_counts = df_manual["Publication Title"].value_counts()
+# Count publication titles/sources
+publication_counts = journal_articles["Source"].value_counts()
 
 # Top 4 most common journals
 top_4_publications = publication_counts.head(4)
@@ -185,18 +105,20 @@ top_publication_values = top_4_publications.values.tolist()
 
 print(top_4_publications)
 
+
 journal_short = [
     "IEEE TGRS",
+    "JCP",
     "Geophysics",
     "Acta Geophysica",
-    "GJI"
 ]
+
 
 # -----------------------------------------------------------------------------
 # Publications per year and problem type
 # -----------------------------------------------------------------------------
 year_counts = (
-    publications
+    selected_publications
     .groupby(["Publication Year", "Problem Type"])
     .size()
     .unstack(fill_value=0)
@@ -224,7 +146,7 @@ bar_width = 0.4
 # Document types
 # -----------------------------------------------------------------------------
 item_type_counts = (
-    publications["Item Type"]
+    selected_publications["Item Type"]
     .value_counts()
 )
 
@@ -232,7 +154,7 @@ item_type_counts = (
 # Top journals
 # -----------------------------------------------------------------------------
 top_publications = (
-    publications["Publication Title"]
+    selected_publications["Source"]
     .dropna()
     .value_counts()
     .head(4)

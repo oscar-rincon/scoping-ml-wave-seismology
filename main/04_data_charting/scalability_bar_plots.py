@@ -5,7 +5,7 @@ from matplotlib.gridspec import GridSpec
 import pandas as pd
 
 # Load the Excel file
-file_path = "data_/extracted_data.xlsx"
+file_path = "data/extracted_data.xlsx"
 
 # Read the first sheet
 df = pd.read_excel(file_path)
