@@ -1,5 +1,7 @@
 
 # WordCloud & plotting
+from genericpath import exists
+
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
@@ -81,6 +83,17 @@ bad_words = {
     "fourier pinn",
     "elastic waveform",
     "pinn fourier",
+    "fwi fwigan",
+    "elastic fwi",
+    "fwigan fwi",
+    "play",
+    "shale play",
+    "forest classifier",
+    "decision forest",
+    "rfftmid rffthigh",
+    "thanks",
+    "carbon dioxide"
+
 }
 
 # Acronym & Term Normalization
@@ -92,13 +105,16 @@ ACRONYM_MAP = {
     "convolutional network": "CNNs",
     "cnn": "CNNs",
     "cnns": "CNNs",
+    "network cnn": "CNNs",
     "rnn": "RNNs",
     "network rnn": "RNNs",
     "rnns": "RNNs",
+    "rcnn": "RCNNs",
     "mlp": "MLP",
     "mlps": "MLP",
     "gan": "GANs",
     "gans": "GANs",
+    "ann": "ANNs",
     "lstm": "LSTM",
     "unet": "U-Net",
     "swinet": "SWINet",
@@ -107,11 +123,15 @@ ACRONYM_MAP = {
     "difference fno": "FNO",
     "cnn migration": "CNNs",
     "fcn": "FCN",
+    "swm": "SWM",
+    "tensorflow": "TensorFlow",
 
     # --- Numerical methods ---
     "fem": "FEM",
     "fems": "FEM",
+    "finite element": "FEM",
     "fd": "FDM",
+    "finite erence": "finite difference",
     "fds": "FDM",
     "fdm": "FDM",
     "fdms": "FDM",
@@ -160,10 +180,13 @@ ACRONYM_MAP = {
     "convolutional network": "convolutional",
     "recurrent neural": "recurrent",
     "autoencoder network": "autoencoder",
+    "conditional autoencoder": "autoencoder",
+    "deep convolutional": "convolutional",
     "decoder network": "decoder",
     "decoder deep": "decoder",
     "adversarial network": "adversarial",
     "network universal": "universal approximator",
+    "resnet fpn": "ResNet",
 
     # --- Math / signal processing ---
     "fourier": "Fourier",
@@ -186,6 +209,7 @@ ACRONYM_MAP = {
     "time waveform": "waveform",
     "elastic waveform": "elastic",
     "traveltime": "travel time",
+    "arrival traveltime": "travel time",
 }
 
 # Load text
@@ -199,7 +223,20 @@ def load_text(path):
 def remove_consecutive_duplicates(tokens):
     return [t for i, t in enumerate(tokens) if i == 0 or t != tokens[i-1]]
 
-text = load_text("data/text.txt")
+# --------------------------------------------------
+# Select text source
+# --------------------------------------------------
+full_text_file = "data/fulltexts.txt"
+metadata_text_file = "data/title_and_abstract_keywords.txt"
+
+if exists(full_text_file):
+    text_file = full_text_file
+    print("Using full-text publications.")
+else:
+    text_file = metadata_text_file
+    print("Full texts not available. Using titles, abstracts, and keywords.")
+
+text = load_text(text_file)
 
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words("english"))
