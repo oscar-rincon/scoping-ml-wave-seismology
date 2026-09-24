@@ -2,6 +2,7 @@
 
 This repository contains the scripts used to generate the figures presented in the scoping review. It aims to promote reproducibility by providing the computational resources required to reproduce the reported analyses and visualizations. The repository structure follows the organization of the review, including illustrative examples, data processing workflows, and scripts for generating the figures and charts derived from the literature search.
 
+![Graphical abstract](figures/graphical_abstract.svg)
 
 ## Installation
 
