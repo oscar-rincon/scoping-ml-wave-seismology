@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.5584659"
-     inkscape:cx="324.35743"
-     inkscape:cy="82.773707"
+     inkscape:zoom="1.6054896"
+     inkscape:cx="320.46299"
+     inkscape:cy="216.75631"
      inkscape:window-width="1920"
      inkscape:window-height="995"
      inkscape:window-x="0"
@@ -147,7 +147,7 @@
        fill="#14324d"
        text-anchor="middle"
        id="text4-6"
-       style="font-size:3.59274px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:3.52778px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">A Scoping Review of Physics-Informed Machine Learning</text>
     <text
        x="84.173988"
@@ -157,7 +157,7 @@
        fill="#14324d"
        text-anchor="middle"
        id="text5-8"
-       style="font-size:3.59274px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:3.52778px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">for Wave Propagation Modeling in Seismology</text>
     <line
        x1="45.522869"
@@ -205,7 +205,7 @@
        fill="#14324d"
        text-anchor="start"
        id="text7-7"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:2.11667px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)">Literature search</text>
     <ellipse
        cx="61.695831"
@@ -233,7 +233,7 @@
        fill="#14324d"
        text-anchor="start"
        id="text9-3"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:2.11667px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)">Scoping review steps</text>
     <ellipse
        cx="138.19777"
@@ -261,7 +261,7 @@
        fill="#14324d"
        text-anchor="start"
        id="text11-7"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:2.11667px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)">Trends</text>
     <ellipse
        cx="58.981182"
@@ -289,7 +289,7 @@
        fill="#14324d"
        text-anchor="start"
        id="text11-7-9"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:2.11667px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">Challenges and oportunities</text>
     <ellipse
        cx="20.423239"
@@ -346,7 +346,7 @@
        fill="#14324d"
        text-anchor="end"
        id="text15-6"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)">Wave</text>
     <text
        x="11.085871"
@@ -356,7 +356,7 @@
        fill="#14324d"
        text-anchor="end"
        id="text16-5"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)">propagation</text>
     <text
        x="6.4676719"
@@ -366,7 +366,7 @@
        fill="#14324d"
        text-anchor="end"
        id="text17-8"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)">Machine</text>
     <text
        x="6.4676719"
@@ -376,7 +376,7 @@
        fill="#14324d"
        text-anchor="end"
        id="text18-7"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)">learning</text>
     <text
        x="33.172939"
@@ -386,7 +386,7 @@
        fill="#14324d"
        text-anchor="start"
        id="text19-9"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)">Seismology</text>
     <text
        x="34.758617"
@@ -397,7 +397,7 @@
        text-anchor="start"
        font-style="italic"
        id="text20-0"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.41111px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)">search results</text>
     <polygon
        points="792.5,272 567.5,272 530,205 830,205 "
@@ -599,9 +599,9 @@
        fill="#6f7780"
        text-anchor="middle"
        id="text196-4"
-       style="font-size:1.68859px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;fill:#14324d;fill-opacity:1;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;fill:#14324d;fill-opacity:1;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.68859px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif Bold';fill:#14324d;fill-opacity:1;stroke-width:0.264584"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif Bold';fill:#14324d;fill-opacity:1;stroke-width:0.264584"
          id="tspan6">Recurrent approaches in seismology</tspan></text>
     <rect
        x="115.33674"
@@ -620,9 +620,9 @@
        fill="#14324d"
        text-anchor="middle"
        id="text197-8"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
          id="tspan7">Fourier neural operator</tspan></text>
     <rect
        x="143.6122"
@@ -641,9 +641,9 @@
        fill="#14324d"
        text-anchor="middle"
        id="text198-1"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
          id="tspan8">Generative adversarial</tspan></text>
     <rect
        x="115.33674"
@@ -662,9 +662,9 @@
        fill="#14324d"
        text-anchor="middle"
        id="text199-6"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
          id="tspan9">Recurrent network</tspan></text>
     <rect
        x="143.6122"
@@ -683,9 +683,9 @@
        fill="#14324d"
        text-anchor="middle"
        id="text200-1"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997282)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
          id="tspan10">Dual networks</tspan></text>
     <rect
        x="-1.575554"
@@ -729,7 +729,7 @@
        fill="#14324d"
        text-anchor="start"
        id="text294"
-       style="stroke-width:0.264583"
+       style="font-size:2.11667px;stroke-width:0.264583"
        transform="scale(1.0066078,0.99343556)">Comparison</text>
     <rect
        x="47.290699"
@@ -787,7 +787,7 @@
        fill="#14324d"
        text-anchor="start"
        id="text299"
-       style="stroke-width:0.264583"
+       style="font-size:2.11667px;stroke-width:0.264583"
        transform="scale(1.0066078,0.99343556)">Evaluation</text>
     <rect
        x="114.47958"
@@ -839,7 +839,7 @@
        fill="#14324d"
        text-anchor="start"
        id="text303"
-       style="stroke-width:0.264583"
+       style="font-size:2.11667px;stroke-width:0.264583"
        transform="scale(1.0066078,0.99343556)">Scalability</text>
     <rect
        x="116.96465"
@@ -1019,7 +1019,7 @@
        fill="#6f7780"
        text-anchor="middle"
        id="text212"
-       style="stroke-width:0.264583"
+       style="font-size:1.5875px;stroke-width:0.264583"
        transform="scale(1.0039417,0.99607381)">Seismic records</text>
     <rect
        x="138.46353"
@@ -1334,7 +1334,7 @@
        fill="#6f7780"
        text-anchor="middle"
        id="text246"
-       style="stroke-width:0.264583"
+       style="font-size:1.5875px;stroke-width:0.264583"
        transform="scale(1.0039417,0.99607381)">PIML</text>
     <image
        x="150.17015"
@@ -1363,40 +1363,40 @@
        fill="#6f7780"
        text-anchor="middle"
        id="text247"
-       style="stroke-width:0.264583"
+       style="font-size:1.5875px;stroke-width:0.264583"
        transform="scale(1.0039417,0.99607381)">Inferred velocity model</text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:1.43709px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#2b3138;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="font-style:italic;font-size:1.5875px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#2b3138;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0"
        x="10.575972"
        y="65.656082"
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.43709px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="10.575972"
          y="65.656082">Accuracy and efficiency must be</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.43709px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="10.575972"
-         y="67.5243"
+         y="67.719833"
          id="tspan2">benchmaked against standard methods</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:1.43709px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#2b3138;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="font-style:italic;font-size:1.55222px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#2b3138;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0"
        x="126.34813"
        y="65.553642"
        id="text1-0"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.43709px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.55222px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="126.34813"
          y="65.553642"
          id="tspan2-5">3D, high-frequency and field-scale </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.43709px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.55222px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="126.34813"
-         y="67.42186"
-         id="tspan3">validation remains an open challenge.</tspan></text>
+         y="67.571526"
+         id="tspan3">validation remains an open challenge</tspan></text>
     <path
        style="fill:#2f6690;fill-opacity:1;stroke:#2f6690;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Triangle)"
        d="m 143.20233,39.302298 v 3.099049"
@@ -1407,19 +1407,19 @@
        id="path3-1" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:1.43709px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#2b3138;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="font-style:italic;font-size:1.5875px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#2b3138;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0"
        x="59.231403"
        y="65.723083"
        id="text1-0-8"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.43709px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="59.231403"
          y="65.723083"
          id="tspan4">Must consider the full workflow: data generation, </tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.43709px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="59.231403"
-         y="67.591301"
-         id="tspan5">training, evaluation, and reuse across problems.</tspan></text>
+         y="67.786835"
+         id="tspan5">training, evaluation, and reuse across problems</tspan></text>
   </g>
 </svg>
