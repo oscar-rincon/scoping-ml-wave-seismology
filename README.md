@@ -1,6 +1,6 @@
 # A Scoping Review of Machine Learning Approaches for Wave Propagation Modeling in Seismology 
 
-This repository contains the scripts used to generate the figures presented in the scoping review. It aims to promote reproducibility by providing the computational resources required to reproduce the reported analyses and visualizations. The repository structure follows the organization of the review, including illustrative examples, data processing workflows, and scripts for generating the figures and charts derived from the literature search.
+This repository contains the scripts used to generate the figures presented in the scoping review. It aims to promote reproducibility by providing the computational resources required to reproduce the reported analyses and visualizations. 
 
 ![Graphical abstract](figures/graphical_abstract_scoping_review.svg)
 
@@ -66,24 +66,22 @@ conda list -n ml-seismic-waves-env
 
 - `01_finite_difference_Helmholtz2D/`: Ilustrative example of standard methods sampling.
 
-![finite_difference](main/01_finite_difference_Helmholtz2D/figs/helmholtz2D_convergence.svg)
+ 
 
 - `02_publication_trends_ml_wave_frameworks/`: Plots of the current trends of the field of study in the review.
 
-![publication_trends](main/02_publication_trends_ml_wave_frameworks/figs/publication_trends_ml_wave_frameworks.svg)
-
+ 
 - `03_universal_approximation_demo/`: Ilustrative example of the Universal Approximation Theorem.
 
-![universal_approximation_demo](main/03_universal_approximation_demo/figs/universal_approximation_demo.svg)
-
+ 
 - `04_data_charting/`: Charting data obtained from the review search.
 
-![scheme_workflow_review](main/04_data_charting/figs/scheme_workflow_review.svg)
-
+ 
 - `05_seismic_inverse/`: Illustrative example of seismic inversion.
 
-![seismic_inverse](main/05_seismic_inverse/figs/seismic_inverse.svg)
-
+ 
 - `06_PINNs_Helmholz2D/`: Illustrative example of PINNs sampling.
 
-![PINNs_Helmholz2D](main/06_PINNs_Helmholz2D/figs/pinn_helmholtz2D_convergence.svg)
+ ## Citation
+
+If you use this repository, its methods, or any of its figures, please cite the relevant work listed in [CITATIONS.md](CITATIONS.md).  
