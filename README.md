@@ -4,6 +4,10 @@ This repository contains the scripts used to generate the figures presented in t
 
 ![Graphical abstract](figures/graphical_abstract_scoping_review.svg)
 
+
+[![DOI](https://zenodo.org/badge/1285542736.svg)](https://doi.org/10.5281/zenodo.23546356)
+
+
 ## Installation
 
 We recommend setting up a new Python environment with conda. You can do this by running the following commands:

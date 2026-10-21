@@ -1,6 +1,8 @@
 
 # Cite This Work
 
+Oscar Rincón-Cardeño. (2026). oscar-rincon/scoping-ml-wave-seismology: Scoping ML wave seismology Scoping ML wave seismology (Version v1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23546356
+
 ## Preprint
 
 Rincón-Cardeño, Ó., Pérez-Bernal, G., Montoya-Noguera, S., & Guarín-Zapata, N. (2026). A Scoping Review of Physics Informed Machine Learning for Wave Propagation Modeling in Seismology (arXiv:2607.00178). arXiv. https://doi.org/10.48550/arXiv.2607.00178
