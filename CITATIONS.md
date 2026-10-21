@@ -8,6 +8,8 @@ Rincón-Cardeño, Ó., Pérez-Bernal, G., Montoya-Noguera, S., & Guarín-Zapata,
 
 ## Figures
 
+- Rincón Cardeño, Oscar; Perez Bernal, Gregorio; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Graphical abstract of A Scoping Review of Physics Informed Machine Learning for Wave Propagation Modeling in Seismology. figshare. Figure. https://doi.org/10.6084/m9.figshare.34741317
+
 - Rincón Cardeño, Oscar (2025). The growth of literature related to machine learning and wave propagation modeling.. figshare. Figure. https://doi.org/10.6084/m9.figshare.30141955.v1
 
 - Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2025). Search flowchart and number of publications after each step. figshare. Figure. https://doi.org/10.6084/m9.figshare.30141961.v1
