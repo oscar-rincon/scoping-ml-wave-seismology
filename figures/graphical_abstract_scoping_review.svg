@@ -10,8 +10,8 @@
    inkscape:version="1.4.2 (1:1.4.2+202505120737+ebf0e940d0)"
    sodipodi:docname="graphical_abstract_scoping_review.svg"
    inkscape:export-filename="graphical_abstract_scoping_review.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0489849"
-     inkscape:cx="336.03915"
-     inkscape:cy="-32.412287"
+     inkscape:zoom="1.4400383"
+     inkscape:cx="275.3399"
+     inkscape:cy="81.942265"
      inkscape:window-width="1920"
      inkscape:window-height="995"
      inkscape:window-x="0"
@@ -159,7 +159,7 @@
        fill="#14324d"
        text-anchor="middle"
        id="text4-6"
-       style="font-size:3.175px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:2.82222px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">A Scoping Review of Physics-Informed Machine Learning</text>
     <text
        x="84.173988"
@@ -169,7 +169,7 @@
        fill="#14324d"
        text-anchor="middle"
        id="text5-8"
-       style="font-size:3.175px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-size:2.82222px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">for Wave Propagation Modeling in Seismology</text>
     <line
        x1="46.052036"

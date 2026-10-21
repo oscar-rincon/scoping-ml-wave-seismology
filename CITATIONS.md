@@ -3,28 +3,21 @@
 
 ## Preprint
 
-Pérez-Bernal, G., Rincón-Cardeño, O., Montoya-Noguera, S., & Guarín-Zapata, N. (2025). Physics-informed neural networks to solve inverse problems in unbounded domains (arXiv:2512.12074). arXiv. https://doi.org/10.48550/arXiv.2512.12074
+Rincón-Cardeño, Ó., Pérez-Bernal, G., Montoya-Noguera, S., & Guarín-Zapata, N. (2026). A Scoping Review of Physics Informed Machine Learning for Wave Propagation Modeling in Seismology (arXiv:2607.00178). arXiv. https://doi.org/10.48550/arXiv.2607.00178
 
-## Repository
-
-Oscar Rincón Cardeño, Perez Bernal, G., Montoya-Noguera, S., & Guarín-Zapata, N. (2026). oscar-rincon/unbounded-domains: Evaluation Sampling Strategies PIKAN (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23087248
 
 ## Figures
 
-- Perez Bernal, Gregorio; Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Schematic of the proposed dual-network physics-informed framework. figshare. Figure. https://doi.org/10.6084/m9.figshare.34046271.v1
+- Rincón Cardeño, Oscar (2025). The growth of literature related to machine learning and wave propagation modeling.. figshare. Figure. https://doi.org/10.6084/m9.figshare.30141955.v1
 
-- Perez Bernal, Gregorio; Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Conceptual comparison between multilayer perceptrons (MLPs) and Kolmogorov--Arnold networks (KANs) for function approximation. figshare. Figure. https://doi.org/10.6084/m9.figshare.34046364.v1
+- Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2025). Search flowchart and number of publications after each step. figshare. Figure. https://doi.org/10.6084/m9.figshare.30141961.v1
 
-- Perez Bernal, Gregorio; Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Manufactured problem design for unbounded inverse problems. figshare. Figure. https://doi.org/10.6084/m9.figshare.34046457.v1
+- Rincón Cardeño, Oscar; Guarin-Zapata, Nicolas; Montoya-Noguera, Silvana (2025). Scheme of the forward and inverse problems encountered in solving partial differential equations. figshare. Figure. https://doi.org/10.6084/m9.figshare.30142078.v1
 
-- Perez Bernal, Gregorio; Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Hyperparameter optimization results for the PIKAN model. figshare. Figure. https://doi.org/10.6084/m9.figshare.34046484.v1
+- Rincón Cardeño, Oscar; Guarin-Zapata, Nicolas; Montoya-Noguera, Silvana (2025). Artificial intelligence subsets and artificial neural networks. figshare. Figure. https://doi.org/10.6084/m9.figshare.30142114.v1
 
-- Perez Bernal, Gregorio; Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Spatial generalization of the proposed approach for the infinite-domain inverse problem under uniform and Gaussian sampling. figshare. Figure. https://doi.org/10.6084/m9.figshare.34046520.v1
+- Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Perez Bernal, Gregorio; Guarin-Zapata, Nicolas (2026). Approximation of an objective function using a hidden single-layer neural network with varying numbers of neurons. figshare. Figure. https://doi.org/10.6084/m9.figshare.34741011.v1
 
-- Perez Bernal, Gregorio; Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Sampling-strategy comparison for the semi-infinite-domain inverse problem. figshare. Figure. https://doi.org/10.6084/m9.figshare.34046532.v1
+- Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Perez Bernal, Gregorio; Guarin-Zapata, Nicolas (2026). Physics-informed machine learning taxonomy and knowledge incorporation mechanisms. figshare. Figure. https://doi.org/10.6084/m9.figshare.34741044.v1
 
-- Perez Bernal, Gregorio; Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Hyperparameter optimization results for the infinite-domain problem for the MLP model. figshare. Figure. https://doi.org/10.6084/m9.figshare.34046736.v1
-
-- Perez Bernal, Gregorio; Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Hyperparameter optimization results for the semi-infinite-domain problem for the KAN and MLP models. figshare. Figure. https://doi.org/10.6084/m9.figshare.34046910.v1
- 
-- Perez Bernal, Gregorio; Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Guarin-Zapata, Nicolas (2026). Training evolution under different loss-weighting strategies. figshare. Figure. https://doi.org/10.6084/m9.figshare.34046940.v1
+- Rincón Cardeño, Oscar; Montoya-Noguera, Silvana; Perez Bernal, Gregorio; Guarin-Zapata, Nicolas (2026). Architectures used in the reviewed studies. figshare. Figure. https://doi.org/10.6084/m9.figshare.34741047.v1
