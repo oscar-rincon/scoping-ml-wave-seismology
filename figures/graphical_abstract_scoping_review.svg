@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="177.8mm"
-   height="67.69455mm"
-   viewBox="0 0 177.80001 67.69455"
+   width="178.11926mm"
+   height="75.48307mm"
+   viewBox="0 0 178.11927 75.483071"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (1:1.4.2+202505120737+ebf0e940d0)"
@@ -27,11 +27,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.4400383"
-     inkscape:cx="275.3399"
-     inkscape:cy="81.942265"
+     inkscape:zoom="2.0365217"
+     inkscape:cx="342.0047"
+     inkscape:cy="121.77626"
      inkscape:window-width="1920"
-     inkscape:window-height="995"
+     inkscape:window-height="983"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -131,20 +131,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(3.968751,-5.2916646)">
+     transform="translate(3.8388317,-5.1617455)">
     <rect
-       x="-3.968751"
-       y="5.2916646"
-       width="177.8"
-       height="67.69455"
-       fill="none"
-       stroke="#2f6690"
-       stroke-width="0.529167"
-       id="rect4-6-0"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none" />
+       style="fill:#ffffff;stroke:none;stroke-width:0.4;stroke-miterlimit:3.4"
+       id="rect1"
+       width="178.11926"
+       height="75.48307"
+       x="-3.8388317"
+       y="5.1617455" />
     <rect
        x="116.4881"
-       y="49.128799"
+       y="51.245468"
        width="26.43763"
        height="2.8110049"
        rx="0.38454735"
@@ -171,37 +168,17 @@
        id="text5-8"
        style="font-size:2.82222px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">for Wave Propagation Modeling in Seismology</text>
-    <line
-       x1="46.052036"
-       y1="17.787504"
-       x2="46.052036"
-       y2="53.728195"
-       stroke="#d5dde6"
-       stroke-width="0.529167"
-       stroke-dasharray="6, 6"
-       id="line5-9"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.4;stroke-dashoffset:0" />
-    <line
-       x1="112.78986"
-       y1="17.787504"
-       x2="112.78986"
-       y2="53.728195"
-       stroke="#d5dde6"
-       stroke-width="0.529167"
-       stroke-dasharray="6, 6"
-       id="line6-0"
-       style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.4;stroke-dashoffset:0" />
     <ellipse
-       cx="8.8389721"
-       cy="19.736237"
+       cx="0.90147215"
+       cy="21.852905"
        fill="#2f6690"
        id="circle6-6"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        rx="1.3051805"
        ry="1.3051094" />
     <text
-       x="8.8387318"
-       y="20.322283"
+       x="0.9014467"
+       y="22.439005"
        font-size="1.60633px"
        font-weight="bold"
        fill="#ffffff"
@@ -210,8 +187,8 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">1</text>
     <text
-       x="10.947042"
-       y="20.525873"
+       x="3.0097589"
+       y="22.642595"
        font-size="2.1083px"
        font-weight="bold"
        fill="#14324d"
@@ -220,16 +197,16 @@
        style="font-size:2.11667px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">Literature search</text>
     <ellipse
-       cx="61.695831"
-       cy="19.736237"
+       cx="48.995819"
+       cy="21.852905"
        fill="#2f6690"
        id="circle7-9"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        rx="1.3051805"
        ry="1.3051094" />
     <text
-       x="61.694157"
-       y="20.332872"
+       x="48.994511"
+       y="22.449594"
        font-size="1.60633px"
        font-weight="bold"
        fill="#ffffff"
@@ -238,8 +215,8 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">2</text>
     <text
-       x="63.802471"
-       y="20.312449"
+       x="51.102825"
+       y="22.429171"
        font-size="2.1083px"
        font-weight="bold"
        fill="#14324d"
@@ -248,16 +225,16 @@
        style="font-size:2.11667px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">Scoping review steps</text>
     <ellipse
-       cx="138.19777"
-       cy="19.736237"
+       cx="118.61874"
+       cy="21.852905"
        fill="#2f6690"
        id="circle9-3"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        rx="1.3051805"
        ry="1.3051094" />
     <text
-       x="138.19421"
-       y="20.321499"
+       x="118.6155"
+       y="22.438221"
        font-size="1.60633px"
        font-weight="bold"
        fill="#ffffff"
@@ -266,8 +243,8 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">3</text>
     <text
-       x="140.30252"
-       y="20.525873"
+       x="120.72375"
+       y="22.642595"
        font-size="2.1083px"
        font-weight="bold"
        fill="#14324d"
@@ -276,16 +253,16 @@
        style="font-size:2.11667px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">Trends</text>
     <ellipse
-       cx="58.981182"
-       cy="55.72794"
+       cx="1.3019805"
+       cy="61.548779"
        fill="#2f6690"
        id="circle9-3-3"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        rx="1.3051805"
        ry="1.3051094" />
     <text
-       x="58.979576"
-       y="56.331833"
+       x="1.3020113"
+       y="62.15284"
        font-size="1.60633px"
        font-weight="bold"
        fill="#ffffff"
@@ -294,8 +271,8 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">4</text>
     <text
-       x="61.087883"
-       y="56.432228"
+       x="3.4103208"
+       y="62.253235"
        font-size="2.1083px"
        font-weight="bold"
        fill="#14324d"
@@ -305,7 +282,7 @@
        transform="scale(1.0000272,0.99997281)">Challenges and oportunities</text>
     <ellipse
        cx="20.423239"
-       cy="32.846455"
+       cy="34.963123"
        fill="#b9cbe0"
        fill-opacity="0.6"
        stroke="#2f6690"
@@ -316,7 +293,7 @@
        ry="8.5334072" />
     <ellipse
        cx="14.399333"
-       cy="41.37986"
+       cy="43.496529"
        fill="#b8dceb"
        fill-opacity="0.6"
        stroke="#2f6690"
@@ -327,7 +304,7 @@
        ry="8.5334072" />
     <ellipse
        cx="26.447153"
-       cy="41.37986"
+       cy="43.496529"
        fill="#2f6690"
        fill-opacity="0.22"
        stroke="#2f6690"
@@ -340,7 +317,7 @@
        clip-path="url(#clipPath153-3)"
        id="g14-5"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:2.6354;stroke-linecap:butt;stroke-linejoin:round"
-       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,2.7285431)">
+       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,4.8452099)">
       <circle
          cx="325"
          cy="385"
@@ -352,57 +329,57 @@
     </g>
     <text
        x="11.085871"
-       y="27.425978"
+       y="29.5427"
        font-size="1.70673px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="end"
        id="text15-6"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Wave</text>
+       transform="scale(1.0000272,0.99997281)">Wave</text>
     <text
        x="11.085871"
-       y="29.534286"
+       y="31.651011"
        font-size="1.70673px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="end"
        id="text16-5"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">propagation</text>
+       transform="scale(1.0000272,0.99997281)">propagation</text>
     <text
        x="6.4676719"
-       y="46.09959"
+       y="48.21632"
        font-size="1.70673px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="end"
        id="text17-8"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Machine</text>
+       transform="scale(1.0000272,0.99997281)">Machine</text>
     <text
        x="6.4676719"
-       y="48.207901"
+       y="50.324631"
        font-size="1.70673px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="end"
        id="text18-7"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">learning</text>
+       transform="scale(1.0000272,0.99997281)">learning</text>
     <text
        x="33.172939"
-       y="48.709892"
+       y="50.826622"
        font-size="1.70673px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="start"
        id="text19-9"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Seismology</text>
+       transform="scale(1.0000272,0.99997281)">Seismology</text>
     <text
        x="37.240349"
-       y="37.116531"
+       y="39.233261"
        font-size="1.40554px"
        font-weight="normal"
        fill="#6f7780"
@@ -412,28 +389,28 @@
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
        transform="scale(1.0000272,0.99997281)">search results</text>
     <polygon
-       points="792.5,272 567.5,272 530,205 830,205 "
+       points="530,205 830,205 792.5,272 567.5,272 "
        fill="#b9cbe0"
        stroke="#ffffff"
        stroke-width="6.58851"
        id="polygon20-4"
-       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,2.7285431)"
+       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,4.8452099)"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-linecap:butt;stroke-linejoin:round" />
     <text
        x="62.086929"
-       y="27.476173"
+       y="29.592896"
        font-size="2.40951px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="middle"
        id="text21-1"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">1</text>
+       transform="scale(1.0000272,0.99997281)">1</text>
     <line
        x1="76.064087"
-       y1="26.672287"
+       y1="28.788956"
        x2="79.357162"
-       y2="26.672287"
+       y2="28.788956"
        stroke="#6f7780"
        stroke-width="0.396875"
        stroke-dasharray="2, 4"
@@ -441,47 +418,47 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.4;stroke-dashoffset:0" />
     <text
        x="80.358948"
-       y="26.371826"
+       y="28.488548"
        font-size="1.70673px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="start"
        id="text22-4"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Identification</text>
+       transform="scale(1.0000272,0.99997281)">Identification</text>
     <text
        x="80.358948"
-       y="28.480137"
+       y="30.596859"
        font-size="1.40554px"
        font-weight="normal"
        fill="#6f7780"
        text-anchor="start"
        id="text23-8"
        style="font-size:1.41111px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Combined keyword search in databases</text>
+       transform="scale(1.0000272,0.99997281)">Combined keyword search in databases</text>
     <polygon
-       points="755,339 605,339 567.5,272 792.5,272 "
+       points="567.5,272 792.5,272 755,339 605,339 "
        fill="#8aaccb"
        stroke="#ffffff"
        stroke-width="6.58851"
        id="polygon23-7"
-       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,2.7285431)"
+       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,4.8452099)"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-linecap:butt;stroke-linejoin:round" />
     <text
        x="62.086929"
-       y="34.202694"
+       y="36.319424"
        font-size="2.40951px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="middle"
        id="text24-0"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">2</text>
+       transform="scale(1.0000272,0.99997281)">2</text>
     <line
        x1="72.309174"
-       y1="33.398621"
+       y1="35.515289"
        x2="79.357162"
-       y2="33.398621"
+       y2="35.515289"
        stroke="#6f7780"
        stroke-width="0.396875"
        stroke-dasharray="2, 4"
@@ -489,47 +466,47 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.4;stroke-dashoffset:0" />
     <text
        x="80.358948"
-       y="33.098335"
+       y="35.215065"
        font-size="1.70673px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="start"
        id="text25-6"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Screening</text>
+       transform="scale(1.0000272,0.99997281)">Screening</text>
     <text
        x="80.358948"
-       y="35.206654"
+       y="37.323383"
        font-size="1.40554px"
        font-weight="normal"
        fill="#6f7780"
        text-anchor="start"
        id="text26-2"
        style="font-size:1.41111px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Titles and abstracts for criteria</text>
+       transform="scale(1.0000272,0.99997281)">Titles and abstracts for criteria</text>
     <polygon
-       points="717.5,406 642.5,406 605,339 755,339 "
+       points="605,339 755,339 717.5,406 642.5,406 "
        fill="#5b86ad"
        stroke="#ffffff"
        stroke-width="6.58851"
        id="polygon26-4"
-       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,2.7285431)"
+       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,4.8452099)"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-linecap:butt;stroke-linejoin:round" />
     <text
        x="62.086929"
-       y="40.929211"
+       y="43.04594"
        font-size="2.40951px"
        font-weight="bold"
        fill="#ffffff"
        text-anchor="middle"
        id="text27-7"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">3</text>
+       transform="scale(1.0000272,0.99997281)">3</text>
     <line
        x1="68.534203"
-       y1="40.124954"
+       y1="42.241623"
        x2="79.357162"
-       y2="40.124954"
+       y2="42.241623"
        stroke="#6f7780"
        stroke-width="0.396875"
        stroke-dasharray="2, 4"
@@ -537,47 +514,47 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.4;stroke-dashoffset:0" />
     <text
        x="80.358948"
-       y="39.824856"
+       y="41.941586"
        font-size="1.70673px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="start"
        id="text28-3"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Eligibility</text>
+       transform="scale(1.0000272,0.99997281)">Eligibility</text>
     <text
        x="80.358948"
-       y="41.93317"
+       y="44.0499"
        font-size="1.40554px"
        font-weight="normal"
        fill="#6f7780"
        text-anchor="start"
        id="text29-9"
        style="font-size:1.41111px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Full-text assessment of studies</text>
+       transform="scale(1.0000272,0.99997281)">Full-text assessment of studies</text>
     <polygon
-       points="717.5,406 680,473 642.5,406 "
+       points="680,473 642.5,406 717.5,406 "
        fill="#2f6690"
        stroke="#ffffff"
        stroke-width="6.58851"
        id="polygon29-2"
-       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,2.7285431)"
+       transform="matrix(0.1003985,0,0,0.10039303,-6.1823639,4.8452099)"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-linecap:butt;stroke-linejoin:round" />
     <text
-       x="62.02948"
-       y="47.108974"
+       x="62.129856"
+       y="49.225704"
        font-size="2.40951px"
        font-weight="bold"
        fill="#ffffff"
        text-anchor="middle"
        id="text30-8"
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">4</text>
+       transform="scale(1.0000272,0.99997281)">4</text>
     <line
        x1="64.779289"
-       y1="46.85128"
+       y1="48.967949"
        x2="79.357162"
-       y2="46.85128"
+       y2="48.967949"
        stroke="#6f7780"
        stroke-width="0.396875"
        stroke-dasharray="2, 4"
@@ -585,39 +562,39 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:0.4;stroke-dashoffset:0" />
     <text
        x="80.358948"
-       y="46.551369"
+       y="48.668098"
        font-size="1.70673px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="start"
        id="text31-0"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Inclusion</text>
+       transform="scale(1.0000272,0.99997281)">Inclusion</text>
     <text
        x="80.358948"
-       y="48.659679"
+       y="50.776409"
        font-size="1.40554px"
        font-weight="normal"
        fill="#6f7780"
        text-anchor="start"
        id="text32-1"
        style="font-size:1.41111px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)">Data charting and thematic synthesis</text>
+       transform="scale(1.0000272,0.99997281)">Data charting and thematic synthesis</text>
     <text
        x="143.10629"
-       y="44.583183"
+       y="46.699913"
        font-size="1.28155px"
        font-weight="normal"
        fill="#6f7780"
        text-anchor="middle"
        id="text196-4"
        style="font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;fill:#14324d;fill-opacity:1;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)"><tspan
+       transform="scale(1.0000272,0.99997281)"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.76389px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif Bold';fill:#14324d;fill-opacity:1;stroke-width:0.264584"
          id="tspan6">Recurrent approaches in seismology</tspan></text>
     <rect
        x="116.5087"
-       y="45.823639"
+       y="47.940308"
        width="26.43763"
        height="2.8110049"
        rx="0.38454735"
@@ -626,19 +603,19 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round" />
     <text
        x="129.13799"
-       y="47.73241"
+       y="49.84914"
        font-size="1.50594px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="middle"
        id="text197-8"
        style="font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)"><tspan
+       transform="scale(1.0000272,0.99997281)"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
          id="tspan7">Fourier neural operator</tspan></text>
     <rect
        x="143.60109"
-       y="45.772915"
+       y="47.889584"
        width="26.43763"
        height="2.8110049"
        rx="0.38454735"
@@ -647,31 +624,31 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round" />
     <text
        x="157.4127"
-       y="47.73241"
+       y="49.84914"
        font-size="1.50594px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="middle"
        id="text198-1"
        style="font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)"><tspan
+       transform="scale(1.0000272,0.99997281)"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
          id="tspan8">Generative adversarial</tspan></text>
     <text
        x="129.13799"
-       y="51.14587"
+       y="53.2626"
        font-size="1.50594px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="middle"
        id="text199-6"
        style="font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)"><tspan
+       transform="scale(1.0000272,0.99997281)"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
          id="tspan9">Recurrent network</tspan></text>
     <rect
        x="143.61229"
-       y="49.011738"
+       y="51.128407"
        width="26.43763"
        height="2.8110049"
        rx="0.38454735"
@@ -680,19 +657,19 @@
        style="font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round" />
     <text
        x="157.4127"
-       y="51.14587"
+       y="53.2626"
        font-size="1.50594px"
        font-weight="bold"
        fill="#14324d"
        text-anchor="middle"
        id="text200-1"
        style="font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;stroke-width:0.264584;stroke-linecap:butt;stroke-linejoin:round"
-       transform="scale(1.0000272,0.99997282)"><tspan
+       transform="scale(1.0000272,0.99997281)"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.5875px;font-family:'DejaVu Sans', Verdana, Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Verdana, Arial, sans-serif';stroke-width:0.264584"
          id="tspan10">Dual networks</tspan></text>
     <rect
        x="-2.1047206"
-       y="59.188736"
+       y="65.009575"
        width="46.676071"
        height="11.982346"
        rx="0.82905996"
@@ -702,7 +679,7 @@
        id="rect293" />
     <ellipse
        cx="4.0654097"
-       cy="65.179901"
+       cy="71.00074"
        fill="#ffffff"
        stroke="#14324d"
        stroke-width="0.661459"
@@ -711,7 +688,7 @@
        ry="3.9286377"
        style="stroke-width:0.4;stroke-dasharray:none" />
     <path
-       d="m 4.0654096,63.019157 v 3.928636 M 2.6721545,67.242441 H 5.458665 M 1.6769722,63.804883 h 4.7768751 m -4.7768751,0 -0.79614597,1.767888 M 1.6769722,63.804883 2.6721545,65.572771 M 6.4538473,63.804883 5.458665,65.572771 m 0.9951823,-1.767888 0.7961457,1.767888"
+       d="M 4.0654096,68.839994 V 72.76863 M 2.6721545,73.063278 H 5.458665 M 1.6769722,69.62572 h 4.7768751 m -4.7768751,0 -0.79614597,1.767888 M 1.6769722,69.62572 2.6721545,71.393608 M 6.4538473,69.62572 5.458665,71.393608 M 6.4538473,69.62572 7.249993,71.393608"
        stroke="#14324d"
        stroke-width="0.846665"
        fill="none"
@@ -720,13 +697,13 @@
        id="path293"
        style="stroke-width:0.4;stroke-dasharray:none" />
     <path
-       d="M 0.68178993,65.572771 H 2.871191 q -1.0947007,1.178591 -2.18940107,0 z m 4.57783847,0 h 2.1894011 q -1.0947005,1.178591 -2.1894011,0 z"
+       d="M 0.68178993,71.393608 H 2.871191 q -1.0947007,1.178591 -2.18940107,0 z m 4.57783847,0 h 2.1894011 q -1.0947005,1.178591 -2.1894011,0 z"
        fill="#14324d"
        id="path294"
        style="stroke-width:0.4;stroke-dasharray:none" />
     <text
        x="9.7728901"
-       y="63.138985"
+       y="68.99826"
        font-size="2.07616px"
        font-weight="bold"
        fill="#14324d"
@@ -736,7 +713,7 @@
        transform="scale(1.0066078,0.99343557)">Comparison</text>
     <rect
        x="47.290699"
-       y="59.188736"
+       y="65.009575"
        width="64.216522"
        height="11.982346"
        rx="1.1406131"
@@ -746,7 +723,7 @@
        id="rect297" />
     <ellipse
        cx="58.223339"
-       cy="65.179901"
+       cy="71.00074"
        fill="#ffffff"
        stroke="#14324d"
        stroke-width="0.661459"
@@ -756,7 +733,7 @@
        style="stroke-width:0.4;stroke-dasharray:none" />
     <ellipse
        cx="57.825264"
-       cy="64.787041"
+       cy="70.60788"
        stroke="#14324d"
        stroke-width="0.846665"
        fill="none"
@@ -767,14 +744,14 @@
        ry="1.6696711"
        style="stroke-width:0.4;stroke-dasharray:none" />
     <path
-       d="m 59.119004,66.063851 1.393254,1.375023"
+       d="m 59.119004,71.884688 1.393254,1.375023"
        stroke="#14324d"
        stroke-width="1.58749"
        stroke-linecap="round"
        id="path298"
        style="stroke-width:0.4;stroke-dasharray:none" />
     <path
-       d="m 57.02912,64.787044 0.696627,0.68751 0.995183,-1.375023"
+       d="m 57.02912,70.607881 0.696627,0.68751 0.995183,-1.375023"
        stroke="#14324d"
        stroke-width="0.846665"
        fill="none"
@@ -784,7 +761,7 @@
        style="stroke-width:0.4;stroke-dasharray:none" />
     <text
        x="63.575321"
-       y="63.138985"
+       y="68.99826"
        font-size="2.07616px"
        font-weight="bold"
        fill="#14324d"
@@ -794,7 +771,7 @@
        transform="scale(1.0066078,0.99343557)">Evaluation</text>
     <rect
        x="114.60701"
-       y="59.188736"
+       y="65.009575"
        width="55.067219"
        height="11.982346"
        rx="0.97810352"
@@ -804,7 +781,7 @@
        id="rect302" />
     <ellipse
        cx="127.52888"
-       cy="65.179901"
+       cy="71.00074"
        fill="#ffffff"
        stroke="#14324d"
        stroke-width="0.661459"
@@ -814,7 +791,7 @@
        style="stroke-width:0.4;stroke-dasharray:none" />
     <rect
        x="125.14048"
-       y="62.822723"
+       y="68.643562"
        width="4.776875"
        height="4.7143655"
        rx="0.4975912"
@@ -826,7 +803,7 @@
        id="rect303"
        style="stroke-width:0.4;stroke-dasharray:none" />
     <path
-       d="m 126.2352,66.456715 2.58748,-2.553615 m 0,0 v 1.080376 m 0,-1.080376 h -1.09471 m -1.49277,2.553615 v -1.080376 m 0,1.080376 h 1.0947"
+       d="m 126.2352,72.277552 2.58748,-2.553615 m 0,0 v 1.080376 m 0,-1.080376 h -1.09471 m -1.49277,2.553615 v -1.080376 m 0,1.080376 h 1.0947"
        stroke="#14324d"
        stroke-width="0.846665"
        fill="none"
@@ -836,7 +813,7 @@
        style="stroke-width:0.4;stroke-dasharray:none" />
     <text
        x="132.42595"
-       y="63.138985"
+       y="68.99826"
        font-size="2.07616px"
        font-weight="bold"
        fill="#14324d"
@@ -846,7 +823,7 @@
        transform="scale(1.0066078,0.99343557)">Scalability</text>
     <rect
        x="116.96465"
-       y="23.755938"
+       y="25.872606"
        width="19.939184"
        height="10.454232"
        fill="#f7f8fa"
@@ -856,9 +833,9 @@
        style="stroke-width:0.2;stroke-dasharray:none" />
     <line
        x1="117.94127"
-       y1="23.916771"
+       y1="26.03344"
        x2="117.94127"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line203" />
@@ -868,13 +845,13 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline203"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <line
        x1="119.75612"
-       y1="23.916771"
+       y1="26.03344"
        x2="119.75612"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line204" />
@@ -884,13 +861,13 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline204"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <line
        x1="121.571"
-       y1="23.916771"
+       y1="26.03344"
        x2="121.571"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line205" />
@@ -900,13 +877,13 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline205"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <line
        x1="123.38588"
-       y1="23.916771"
+       y1="26.03344"
        x2="123.38588"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line206" />
@@ -916,13 +893,13 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline206"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <line
        x1="125.20074"
-       y1="23.916771"
+       y1="26.03344"
        x2="125.20074"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line207" />
@@ -932,13 +909,13 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline207"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <line
        x1="127.01562"
-       y1="23.916771"
+       y1="26.03344"
        x2="127.01562"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line208" />
@@ -948,13 +925,13 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline208"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <line
        x1="128.83049"
-       y1="23.916771"
+       y1="26.03344"
        x2="128.83049"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line209" />
@@ -964,13 +941,13 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline209"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <line
        x1="130.64537"
-       y1="23.916771"
+       y1="26.03344"
        x2="130.64537"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line210" />
@@ -980,13 +957,13 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline210"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <line
        x1="132.46025"
-       y1="23.916771"
+       y1="26.03344"
        x2="132.46025"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line211" />
@@ -996,13 +973,13 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline211"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <line
        x1="134.27512"
-       y1="23.916771"
+       y1="26.03344"
        x2="134.27512"
-       y2="34.049335"
+       y2="36.166004"
        stroke="#c9d1da"
        stroke-width="0.264583"
        id="line212" />
@@ -1012,21 +989,21 @@
        stroke="#14324d"
        stroke-width="3.17847"
        id="polyline212"
-       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-26.102711)"
+       transform="matrix(0.08138444,0,0,0.08041717,108.01235,-23.986043)"
        style="stroke-width:2.47221;stroke-dasharray:none" />
     <text
        x="126.3825"
-       y="36.659855"
+       y="38.78487"
        font-size="1.5429px"
        font-weight="normal"
        fill="#6f7780"
        text-anchor="middle"
        id="text212"
        style="font-size:1.76389px;stroke-width:0.264583"
-       transform="scale(1.0039417,0.99607381)">Seismic records</text>
+       transform="scale(1.0039417,0.99607378)">Seismic records</text>
     <rect
        x="138.46353"
-       y="23.755938"
+       y="25.872606"
        width="9.7661324"
        height="10.454232"
        rx="0.32553771"
@@ -1035,223 +1012,223 @@
        style="stroke-width:0.264583" />
     <line
        x1="140.57953"
-       y1="26.00762"
+       y1="28.124289"
        x2="143.34659"
-       y2="25.364283"
+       y2="27.480951"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line214" />
     <line
        x1="140.57953"
-       y1="26.00762"
+       y1="28.124289"
        x2="143.34659"
-       y2="27.696379"
+       y2="29.813047"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line215" />
     <line
        x1="140.57953"
-       y1="26.00762"
+       y1="28.124289"
        x2="143.34659"
-       y2="30.269733"
+       y2="32.386402"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line216" />
     <line
        x1="140.57953"
-       y1="26.00762"
+       y1="28.124289"
        x2="143.34659"
-       y2="32.60183"
+       y2="34.718498"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line217" />
     <line
        x1="140.57953"
-       y1="28.983049"
+       y1="31.099718"
        x2="143.34659"
-       y2="25.364283"
+       y2="27.480951"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line218" />
     <line
        x1="140.57953"
-       y1="28.983049"
+       y1="31.099718"
        x2="143.34659"
-       y2="27.696379"
+       y2="29.813047"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line219" />
     <line
        x1="140.57953"
-       y1="28.983049"
+       y1="31.099718"
        x2="143.34659"
-       y2="30.269733"
+       y2="32.386402"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line220" />
     <line
        x1="140.57953"
-       y1="28.983049"
+       y1="31.099718"
        x2="143.34659"
-       y2="32.60183"
+       y2="34.718498"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line221" />
     <line
        x1="140.57953"
-       y1="31.958487"
+       y1="34.075153"
        x2="143.34659"
-       y2="25.364283"
+       y2="27.480951"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line222" />
     <line
        x1="140.57953"
-       y1="31.958487"
+       y1="34.075153"
        x2="143.34659"
-       y2="27.696379"
+       y2="29.813047"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line223" />
     <line
        x1="140.57953"
-       y1="31.958487"
+       y1="34.075153"
        x2="143.34659"
-       y2="30.269733"
+       y2="32.386402"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line224" />
     <line
        x1="140.57953"
-       y1="31.958487"
+       y1="34.075153"
        x2="143.34659"
-       y2="32.60183"
+       y2="34.718498"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line225" />
     <line
        x1="143.34659"
-       y1="25.364283"
+       y1="27.480951"
        x2="146.11366"
-       y2="26.00762"
+       y2="28.124289"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line226" />
     <line
        x1="143.34659"
-       y1="25.364283"
+       y1="27.480951"
        x2="146.11366"
-       y2="28.983049"
+       y2="31.099718"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line227" />
     <line
        x1="143.34659"
-       y1="25.364283"
+       y1="27.480951"
        x2="146.11366"
-       y2="31.958487"
+       y2="34.075153"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line228" />
     <line
        x1="143.34659"
-       y1="27.696379"
+       y1="29.813047"
        x2="146.11366"
-       y2="26.00762"
+       y2="28.124289"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line229" />
     <line
        x1="143.34659"
-       y1="27.696379"
+       y1="29.813047"
        x2="146.11366"
-       y2="28.983049"
+       y2="31.099718"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line230" />
     <line
        x1="143.34659"
-       y1="27.696379"
+       y1="29.813047"
        x2="146.11366"
-       y2="31.958487"
+       y2="34.075153"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line231" />
     <line
        x1="143.34659"
-       y1="30.269733"
+       y1="32.386402"
        x2="146.11366"
-       y2="26.00762"
+       y2="28.124289"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line232" />
     <line
        x1="143.34659"
-       y1="30.269733"
+       y1="32.386402"
        x2="146.11366"
-       y2="28.983049"
+       y2="31.099718"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line233" />
     <line
        x1="143.34659"
-       y1="30.269733"
+       y1="32.386402"
        x2="146.11366"
-       y2="31.958487"
+       y2="34.075153"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line234" />
     <line
        x1="143.34659"
-       y1="32.60183"
+       y1="34.718498"
        x2="146.11366"
-       y2="26.00762"
+       y2="28.124289"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line235" />
     <line
        x1="143.34659"
-       y1="32.60183"
+       y1="34.718498"
        x2="146.11366"
-       y2="28.983049"
+       y2="31.099718"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line236" />
     <line
        x1="143.34659"
-       y1="32.60183"
+       y1="34.718498"
        x2="146.11366"
-       y2="31.958487"
+       y2="34.075153"
        stroke="#ffffff"
        stroke-opacity="0.75"
        stroke-width="0.264583"
        id="line237" />
     <ellipse
        cx="140.57953"
-       cy="26.00762"
+       cy="28.124289"
        fill="#ffffff"
        id="circle237"
        style="stroke-width:0.264583"
@@ -1259,7 +1236,7 @@
        ry="0.44229445" />
     <ellipse
        cx="140.57953"
-       cy="28.983049"
+       cy="31.099718"
        fill="#ffffff"
        id="circle238"
        style="stroke-width:0.264583"
@@ -1267,7 +1244,7 @@
        ry="0.44229445" />
     <ellipse
        cx="140.57953"
-       cy="31.958487"
+       cy="34.075153"
        fill="#ffffff"
        id="circle239"
        style="stroke-width:0.264583"
@@ -1275,7 +1252,7 @@
        ry="0.44229445" />
     <ellipse
        cx="143.34659"
-       cy="25.364283"
+       cy="27.480951"
        fill="#ffffff"
        id="circle240"
        style="stroke-width:0.264583"
@@ -1283,7 +1260,7 @@
        ry="0.44229445" />
     <ellipse
        cx="143.34659"
-       cy="27.696379"
+       cy="29.813047"
        fill="#ffffff"
        id="circle241"
        style="stroke-width:0.264583"
@@ -1291,7 +1268,7 @@
        ry="0.44229445" />
     <ellipse
        cx="143.34659"
-       cy="30.269733"
+       cy="32.386402"
        fill="#ffffff"
        id="circle242"
        style="stroke-width:0.264583"
@@ -1299,7 +1276,7 @@
        ry="0.44229445" />
     <ellipse
        cx="143.34659"
-       cy="32.60183"
+       cy="34.718498"
        fill="#ffffff"
        id="circle243"
        style="stroke-width:0.264583"
@@ -1307,7 +1284,7 @@
        ry="0.44229445" />
     <ellipse
        cx="146.11366"
-       cy="26.00762"
+       cy="28.124289"
        fill="#ffffff"
        id="circle244"
        style="stroke-width:0.264583"
@@ -1315,7 +1292,7 @@
        ry="0.44229445" />
     <ellipse
        cx="146.11366"
-       cy="28.983049"
+       cy="31.099718"
        fill="#ffffff"
        id="circle245"
        style="stroke-width:0.264583"
@@ -1323,7 +1300,7 @@
        ry="0.44229445" />
     <ellipse
        cx="146.11366"
-       cy="31.958487"
+       cy="34.075153"
        fill="#ffffff"
        id="circle246"
        style="stroke-width:0.264583"
@@ -1331,17 +1308,17 @@
        ry="0.44229445" />
     <text
        x="142.52507"
-       y="36.803719"
+       y="38.928734"
        font-size="1.5429px"
        font-weight="normal"
        fill="#6f7780"
        text-anchor="middle"
        id="text246"
        style="font-size:1.76389px;stroke-width:0.264583"
-       transform="scale(1.0039417,0.99607381)">PIML</text>
+       transform="scale(1.0039417,0.99607378)">PIML</text>
     <image
        x="150.17015"
-       y="23.70252"
+       y="25.819189"
        width="19.939184"
        height="10.454232"
        preserveAspectRatio="xMidYMid slice"
@@ -1350,7 +1327,7 @@
        style="stroke-width:3.27053" />
     <rect
        x="150.17015"
-       y="23.70252"
+       y="25.819189"
        width="19.939184"
        height="10.454232"
        fill="none"
@@ -1360,69 +1337,69 @@
        style="stroke-width:0.2;stroke-dasharray:none" />
     <text
        x="159.82404"
-       y="36.802452"
+       y="38.927467"
        font-size="1.5429px"
        font-weight="normal"
        fill="#6f7780"
        text-anchor="middle"
        id="text247"
        style="font-size:1.76389px;stroke-width:0.264583"
-       transform="scale(1.0039417,0.99607381)">Inferred velocity model</text>
+       transform="scale(1.0039417,0.99607378)">Inferred velocity model</text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:1.76389px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#2b3138;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0"
        x="10.046805"
-       y="65.656082"
+       y="71.476921"
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="10.046805"
-         y="65.656082">Accuracy and efficiency must be</tspan><tspan
+         y="71.476921">Accuracy and efficiency must be</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="10.046805"
-         y="67.949142"
+         y="73.769981"
          id="tspan2">benchmaked against standard methods</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:1.76389px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#2b3138;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0"
        x="133.22723"
-       y="65.553642"
+       y="71.374481"
        id="text1-0"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="133.22723"
-         y="65.553642"
+         y="71.374481"
          id="tspan2-5">3D, high-frequency and field-scale </tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="133.22723"
-         y="67.846703"
+         y="73.667542"
          id="tspan3">validation remains an open challenge</tspan></text>
     <path
        style="fill:#2f6690;fill-opacity:1;stroke:#2f6690;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Triangle)"
-       d="M 143.20233,38.773131 V 41.87218"
+       d="m 143.20233,40.889799 v 3.099049"
        id="path3" />
     <path
        style="fill:#2f6690;fill-opacity:1;stroke:#2f6690;stroke-width:0.4;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Triangle-4)"
-       d="M 53.828648,38.120603 H 22.268057"
+       d="M 53.828648,40.237271 H 22.268057"
        id="path3-1" />
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:1.76389px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#2b3138;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:3.4;stroke-dasharray:none;stroke-dashoffset:0"
        x="63.993904"
-       y="65.723083"
+       y="71.543922"
        id="text1-0-8"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="63.993904"
-         y="65.723083"
+         y="71.543922"
          id="tspan4">Must consider the full workflow: data generation, </tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.3;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;text-anchor:start;fill:#2b3138;fill-opacity:1;stroke-width:0.2"
          x="63.993904"
-         y="68.016144"
+         y="73.836983"
          id="tspan5">training, evaluation, and reuse across problems</tspan></text>
   </g>
 </svg>
