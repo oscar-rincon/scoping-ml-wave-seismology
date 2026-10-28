@@ -19,3 +19,13 @@ The repository also includes the code used to generate the word cloud analysis. 
 The scripts are intended to ensure transparency and reproducibility of the data analysis workflow, allowing users to reproduce the figures using the provided metadata and example text inputs.
 
 ![wordcloud](figs/wordcloud.svg)
+
+## Revised scalability plots
+
+The corrected chart annotations are provided in `data/extracted_data_scoping_review_ml_wave_propagation_seismology_revised.xlsx`; the original workbook is unchanged. From the repository root, run:
+
+```bash
+python main/04_data_charting/scalability_bar_plots.py
+```
+
+The script regenerates the SVG and PDF plots in this directory's `figs/` folder and in the repository-level `figures/` folder.
